@@ -10,6 +10,12 @@ The main problem is extracting subgraphs which are highly connected (maximize in
 - Required libraries: [NumPy](http://www.numpy.org), [pandas](https://pandas.pydata.org) and
 [xml.etree.ElementTree](https://github.com/python/cpython/blob/3.12/Lib/xml/etree/ElementTree.py) 
 
+
+## Data
+- PPI data : [BIOGRID](https://downloads.thebiogrid.org/BioGRID)
+- reference datasets (Golden Complexes) : CYC2008, SGD, MIPS, Complex Portal 
+
+## References
 ### Research Paper
 The objective function and the first representation of the solution implemented in this project are based on the following research paper:
 
