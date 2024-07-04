@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entrySet level="2" version="5" minorVersion="4" xsi:schemaLocation="http://psi.hupo.org/mi/mif http://psidev.sourceforge.net/mi/rel25/src/MIF254.xsd" xmlns="http://psi.hupo.org/mi/mif" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <entry>
+        <source releaseDate="2024-02-15Z">
+            <names>
+                <shortLabel>IntAct</shortLabel>
+                <fullName>European Bioinformatics Institute</fullName>
+                <alias typeAc="MI:1041" type="synonym">IntAct</alias>
+                <alias typeAc="MI:1041" type="synonym">intact</alias>
+            </names>
+            <bibref>
+                <xref>
+                    <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                </xref>
+            </bibref>
+            <xref>
+                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0469" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-10" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="19850723" refType="method reference" refTypeAc="MI:0357"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="22121220" refType="method reference" refTypeAc="MI:0357"/>
+            </xref>
+            <attributeList>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/</attribute>
+                <attribute name="search-url" nameAc="MI:0615">http://www.ebi.ac.uk/intact/query/${ac}</attribute>
+                <attribute name="id-validation-regexp" nameAc="MI:0628">EBI-[0-9]+|IA:[0-9]+</attribute>
+                <attribute name="definition">INTerAction database (IntAct) provides an open source database and toolkit for the storage, presentation and analysis of molecular interactions.</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact</attribute>
+                <attribute name="postaladdress">European Bioinformatics Institute; Wellcome Trust Genome Campus; Hinxton, Cambridge; CB10 1SD; United Kingdom</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact/</attribute>
+            </attributeList>
+        </source>
+        <experimentList>
+            <experimentDescription id="67354">
+                <names>
+                    <shortLabel>yeast-1</shortLabel>
+                    <fullName>Curated complexes - human</fullName>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </bibref>
+                <xref>
+                    <primaryRef db="intact" dbAc="MI:0469" id="EBI-852566" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <hostOrganismList>
+                    <hostOrganism ncbiTaxId="559292">
+                        <names>
+                            <shortLabel>yeast</shortLabel>
+                            <fullName>Saccharomyces cerevisiae</fullName>
+                            <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                        </names>
+                    </hostOrganism>
+                </hostOrganismList>
+                <interactionDetectionMethod>
+                    <names>
+                        <shortLabel>inferred by curator</shortLabel>
+                        <fullName>inferred by curator</fullName>
+                        <alias typeAc="MI:0303" type="go synonym">modelled by curator</alias>
+                        <alias typeAc="MI:0303" type="go synonym">modeled by curator</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0364" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-608505" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </interactionDetectionMethod>
+                <participantIdentificationMethod>
+                    <names>
+                        <shortLabel>predetermined</shortLabel>
+                        <fullName>predetermined participant</fullName>
+                        <alias typeAc="MI:1041" type="synonym">predetermined</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0396" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1465" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </participantIdentificationMethod>
+                <attributeList>
+                    <attribute name="curated-complex"/>
+                    <attribute name="comment" nameAc="MI:0612">A collection of literature-mined stable and functionally defined human molecular complexes of known stoichiometry and biological role.</attribute>
+                </attributeList>
+            </experimentDescription>
+        </experimentList>
+        <interactorList>
+            <interactor id="67355">
+                <names>
+                    <shortLabel>gpi1_yeast</shortLabel>
+                    <fullName>Phosphatidylinositol N-acetylglucosaminyltransferase subunit GPI1</fullName>
+                    <alias typeAc="MI:0301" type="gene name">GPI1</alias>
+                    <alias typeAc="MI:0305" type="locus name">YGR216C</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P53306" version="SP_49" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005789" secondary="endoplasmic reticulum membrane" version="SP_154"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VUZ9" version="SP_78" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0017176" secondary="phosphatidylinositol N-acetylglucosaminyltransferase activity" version="SP_154"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000506" secondary="glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex" version="SP_154"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P53306" version="SP_145"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006506" secondary="GPI anchor biosynthetic process" version="SP_154"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-7804" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005783" secondary="endoplasmic reticulum" version="SP_154"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031505" secondary="fungal-type cell wall organization" version="SP_154"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-7773N"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000003448"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR007720" version="SP_154"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_011732.1"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MPNYIFWPYESLFENSAAQGPQVALAISFEKTHFVVLGVCEPQYLEEVSIRPPYSVVATKNNGAEGWNYKVADPCNVHFRIPKLKFMQFYSSDPISLIIPEKEVGLHSSVGETLNYSKLEQHPRYKRDNKKLSETLNIINLFPAYCKALNELYPFIQTSQENLRGTMLNSVAAWCSSTCIYKMVAKIGFYLTFVICSIASLVSSLLNYSHFQLVNYSAFVQQIDLRCQQICYFPVQYERINKKDNIQNVGSMVEKDNSNSQFSHSYMPSKFYPDYILLYNTIWLIINDISFGLILGAILIENRDFLVSASHRVLKFFLYDSLKTITETLANNPLGIKLNAELANFLSELFLWVIEFSYTTFIKRLIDPKTLSSLLTLTIYMMFLVGFSFAVSLAIDFFAILSFPIYVFYRISSKLYHCQLNIMASLFNLFCGKKRNVLRNRIDHNYFQLDQLLLGTLLFIILVFLTPTVMAFYMSYTVLRMLTITIEIFSEAVIALINHFPLFALLLRLKDPKRLPGGISIELKTTVSNKHTTLELQNNPIKFKSMFRPYNLLLSQMRTNYFSFATVRKIVRGESIMVNRNKLYYVLYSSLPSKPLSVKDLYKRLTIQA</sequence>
+            </interactor>
+            <interactor id="67356">
+                <names>
+                    <shortLabel>gpi2_yeast</shortLabel>
+                    <fullName>Phosphatidylinositol N-acetylglucosaminyltransferase GPI2 subunit</fullName>
+                    <alias typeAc="MI:0301" type="gene name">GPI2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">GCR4</alias>
+                    <alias typeAc="MI:0305" type="locus name">YPL076W</alias>
+                    <alias typeAc="MI:0306" type="orf name">LPF9W</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P46961" version="SP_60" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0017176" secondary="phosphatidylinositol N-acetylglucosaminyltransferase activity" version="SP_179"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-7809" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P48014" version="SP_60" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006506" secondary="GPI anchor biosynthetic process" version="SP_179"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR009450" version="SP_179"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_015249.1"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6W3U0" version="SP_89" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005783" secondary="endoplasmic reticulum" version="SP_179"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-4023N"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000506" secondary="glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex" version="SP_179"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P46961" version="SP_171"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000005997"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005789" secondary="endoplasmic reticulum membrane" version="SP_179"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031505" secondary="fungal-type cell wall organization" version="SP_179"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MTRSPWKRLLWLKQEYPDNYTDPSFIELRARQKAESNQKSDRKLSEAARAQIRLDFISFYQTILNTSFIYITFTYIYYYGFDPIPPTIFLSFITLIISRTKVDPLLSSFMDVKSSLIITFAMLTLSPVLKSLSKTTASDSIWTLSFWLTLWYIFVISSTKSKDKPSNLSTNILVALVAVLSSRLSTTIDVFCFLLICIQLNIILPTYLSVTNKVVPIISNIIVYSFLNVALGWIYMLLIFFASVFYITVLPKWFIYWKINYHKRDNDLLSTWDARTPILD</sequence>
+                <attributeList>
+                    <attribute name="crc64">2BFEE04E913918DB</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="67357">
+                <names>
+                    <shortLabel>gpi3_yeast</shortLabel>
+                    <fullName>Phosphatidylinositol N-acetylglucosaminyltransferase GPI3 subunit</fullName>
+                    <alias typeAc="MI:0301" type="gene name">SPT14</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">CWH6</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">GlcNAc-PI synthesis protein</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">GPI3</alias>
+                    <alias typeAc="MI:0306" type="orf name">P2269</alias>
+                    <alias typeAc="MI:0305" type="locus name">YPL175W</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P32363" version="SP_61" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000006096"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR001296" version="SP_180"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031505" secondary="fungal-type cell wall organization" version="SP_180"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6W3J3" version="SP_89" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-7815" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005789" secondary="endoplasmic reticulum membrane" version="SP_180"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005829" secondary="cytosol" version="SP_180"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-1834N"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000506" secondary="glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex" version="SP_180"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0017176" secondary="phosphatidylinositol N-acetylglucosaminyltransferase activity" version="SP_180"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR013234" version="SP_180"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_015150.2"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR039507" version="SP_180"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006506" secondary="GPI anchor biosynthetic process" version="SP_180"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P32363"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005783" secondary="endoplasmic reticulum" version="SP_180"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Q08918" version="SP_61" refType="secondary-ac" refTypeAc="MI:0360"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MGFNIAMLCDFFYPQLGGVEFHIYHLSQKLIDLGHSVVIITHAYKDRVGVRHLTNGLKVYHVPFFVIFRETTFPTVFSTFPIIRNILLREQIQIVHSHGSASTFAHEGILHANTMGLRTVFTDHSLYGFNNLTSIWVNKLLTFTLTNIDRVICVSNTCKENMIVRTELSPDIISVIPNAVVSEDFKPRDPTGGTKRKQSRDKIVIVVIGRLFPNKGSDLLTRIIPKVCSSHEDVEFIVAGDGPKFIDFQQMIESHRLQKRVQLLGSVPHEKVRDVLCQGDIYLHASLTEAFGTILVEAASCNLLIVTTQVGGIPEVLPNEMTVYAEQTSVSDLVQATNKAINIIRSKALDTSSFHDSVSKMYDWMDVAKRTVEIYTNISSTSSADDKDWMKMVANLYKRDGIWAKHLYLLCGIVEYMLFFLLEWLYPRDEIDLAPKWPKKTVSNETKEARET</sequence>
+            </interactor>
+            <interactor id="67358">
+                <names>
+                    <shortLabel>gpi15_yeast</shortLabel>
+                    <fullName>Phosphatidylinositol N-acetylglucosaminyltransferase subunit GPI15</fullName>
+                    <alias typeAc="MI:0301" type="gene name">GPI15</alias>
+                    <alias typeAc="MI:0305" type="locus name">YNL038W</alias>
+                    <alias typeAc="MI:0306" type="orf name">N2687</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">PIGH homolog</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P53961" version="SP_49" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016020" secondary="membrane" version="SP_140"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR044215" version="SP_140"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005789" secondary="endoplasmic reticulum membrane" version="SP_140"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000506" secondary="glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex" version="SP_140"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0017176" secondary="phosphatidylinositol N-acetylglucosaminyltransferase activity" version="SP_140"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Q6B1G8" version="SP_49" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-6356N"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000004983"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_014360.2"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006506" secondary="GPI anchor biosynthetic process" version="SP_140"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031505" secondary="fungal-type cell wall organization" version="SP_140"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-28685" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6W1E1" version="SP_71" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR019328" version="SP_140"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MISKEYEFGKTSILNRKKYTLVIDEDKNGNFIRFTVLPVSNRKFKKVKQNGRVEINMGIQYHQIVLILLLNILFYVICLRSRFLEHINRTFEVTIARSFQILIIMGLFALGTIILVRGPSVETVTIFKESGLQLSRVKGMVIFPQQWNRKFFEQVEFISNERIIDVVINEGFCRGFRVIFYLAAIVRKSSTLKLLFPSNLPSIDDQRLIYNISRKYLSKQEKPLSRPKD</sequence>
+                <attributeList>
+                    <attribute name="crc64">E89CB192B65FBF06</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="67359">
+                <names>
+                    <shortLabel>gpi19_yeast</shortLabel>
+                    <fullName>Phosphatidylinositol N-acetylglucosaminyltransferase subunit GPI19</fullName>
+                    <alias typeAc="MI:0301" type="gene name">GPI19</alias>
+                    <alias typeAc="MI:0306" type="orf name">D9461.23</alias>
+                    <alias typeAc="MI:0305" type="locus name">YDR437W</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="Q04082" version="SP_42" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0017176" secondary="phosphatidylinositol N-acetylglucosaminyltransferase activity" version="SP_138"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005783" secondary="endoplasmic reticulum" version="SP_138"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000002845"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006506" secondary="GPI anchor biosynthetic process" version="SP_138"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031505" secondary="fungal-type cell wall organization" version="SP_138"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000506" secondary="glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex" version="SP_138"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_010725.3"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005635" secondary="nuclear envelope" version="SP_138"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR016542"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VT64" version="SP_66" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR013717"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005789" secondary="endoplasmic reticulum membrane" version="SP_138"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-36611" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MYTKEYYWFSQYMIITSTLVLTIIWSILPSSLGEAAPKQFINTLLDIFPQRRWIITLESIMLMGMLCTYIGLLMYNEDTLTPPLDSLSTVTDAGGQLVIEDDPDVFVKKWAFKETSGIYDLSLMDACQLLYLYDNDHTST</sequence>
+            </interactor>
+            <interactor id="67360">
+                <names>
+                    <shortLabel>eri1_yeast</shortLabel>
+                    <fullName>Phosphatidylinositol N-acetylglucosaminyltransferase ERI1 subunit</fullName>
+                    <alias typeAc="MI:0302" type="gene name synonym">Endoplasmic reticulum-associated Ras inhibitor protein 1</alias>
+                    <alias typeAc="MI:0301" type="gene name">ERI1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">RIN1</alias>
+                    <alias typeAc="MI:0305" type="locus name">YPL096C-A</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P62651" version="SP_29" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005095" secondary="GTPase inhibitor activity" version="SP_120"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005783" secondary="endoplasmic reticulum" version="SP_120"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000028423"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005789" secondary="endoplasmic reticulum membrane" version="SP_120"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_690846.1"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006506" secondary="GPI anchor biosynthetic process" version="SP_120"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6W3S0" version="SP_55" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000506" secondary="glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex" version="SP_120"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031505" secondary="fungal-type cell wall organization" version="SP_120"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0007265" secondary="Ras protein signal transduction" version="SP_120"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-975247" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MRPRDQGFLVLGFTYSVLLISLATFYWLRNNDSFLHYWCVLLLCPATLWLWALIAWCDSEMFASSKDE</sequence>
+            </interactor>
+        </interactorList>
+        <interactionList>
+            <interaction id="67361">
+                <names>
+                    <shortLabel>gpi-gnt_yeast</shortLabel>
+                    <alias typeAc="MI:1315" type="complex recommended name">Glycosylphosphatidylinositol-N-acetylglucosaminyltransferase complex</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">N-Acetyl-Glucosamine-transferase PI-GlcNAc-T complex</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">GPI-GnT complex</alias>
+                    <alias typeAc="MI:1316" type="complex systematic name">ERI1:GPI1:GPI2:GPI15:GPI19:SPT14</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">GPI-N-acetylglucosaminyltransferase complex</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">GPI-GlcNAc transferase complex</alias>
+                </names>
+                <xref>
+                    <primaryRef db="rhea" dbAc="MI:2344" id="RHEA:14789" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="16859984" refType="see-also" refTypeAc="MI:0361"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000506" secondary="glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex" refType="component" refTypeAc="MI:0354"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0017176" secondary="phosphatidylinositol N-acetylglucosaminyltransferase activity" refType="function" refTypeAc="MI:0355"/>
+                    <secondaryRef db="evidence ontology" dbAc="MI:1331" id="ECO:0005547"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005789" secondary="endoplasmic reticulum membrane" refType="component" refTypeAc="MI:0354"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-16401021" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031505" secondary="fungal-type cell wall organization" refType="process" refTypeAc="MI:0359"/>
+                    <secondaryRef db="complex portal" dbAc="MI:2279" id="CPX-1274" version="1" refType="complex-primary" refTypeAc="MI:2282"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="23135325" refType="see-also" refTypeAc="MI:0361"/>
+                    <secondaryRef db="intenz" dbAc="MI:0585" id="2.4.1.198" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <experimentList>
+                    <experimentRef>67354</experimentRef>
+                </experimentList>
+                <participantList>
+                    <participant id="67362">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-16401031" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>67355</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                    </participant>
+                    <participant id="67363">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-16401032" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>67356</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                    </participant>
+                    <participant id="67364">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-16401033" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>67357</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>enzyme</shortLabel>
+                                <fullName>enzyme</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0501" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-46" refType="identity" refTypeAc="MI:0356"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                    </participant>
+                    <participant id="67365">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-16401034" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>67358</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                    </participant>
+                    <participant id="67366">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-16401035" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>67359</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                    </participant>
+                    <participant id="67367">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-16401036" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>67360</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                    </participant>
+                </participantList>
+                <interactionType>
+                    <names>
+                        <shortLabel>physical association</shortLabel>
+                        <fullName>physical association</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0915" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1813147" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactionType>
+                <modelled>false</modelled>
+                <intraMolecular>false</intraMolecular>
+                <negative>false</negative>
+                <attributeList>
+                    <attribute name="curated-complex">Monoglycosyltransferase complex that catalyses the transfer of N-acetylglucosamine from UDP-N-acetylglucosamine to the 6-position of phosphatidylinositol, the first, and committed, step of glycosylphosphatidylinositol (GPI) biosynthesis. GPI is a complex glycolipid with a core structure, phosphoethanolamine-6-mannose-alpha1,2-mannose-alpha1,6-mannose-alpha1,4-glucosamine-alpha1,6-inositol-phospholipid that functions as a membrane anchor for many cell surface proteins.</attribute>
+                </attributeList>
+            </interaction>
+        </interactionList>
+    </entry>
+</entrySet>

@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entrySet level="2" version="5" minorVersion="4" xsi:schemaLocation="http://psi.hupo.org/mi/mif http://psidev.sourceforge.net/mi/rel25/src/MIF254.xsd" xmlns="http://psi.hupo.org/mi/mif" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <entry>
+        <source releaseDate="2024-02-15Z">
+            <names>
+                <shortLabel>IntAct</shortLabel>
+                <fullName>European Bioinformatics Institute</fullName>
+                <alias typeAc="MI:1041" type="synonym">IntAct</alias>
+                <alias typeAc="MI:1041" type="synonym">intact</alias>
+            </names>
+            <bibref>
+                <xref>
+                    <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                </xref>
+            </bibref>
+            <xref>
+                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0469" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-10" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="19850723" refType="method reference" refTypeAc="MI:0357"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="22121220" refType="method reference" refTypeAc="MI:0357"/>
+            </xref>
+            <attributeList>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/</attribute>
+                <attribute name="search-url" nameAc="MI:0615">http://www.ebi.ac.uk/intact/query/${ac}</attribute>
+                <attribute name="id-validation-regexp" nameAc="MI:0628">EBI-[0-9]+|IA:[0-9]+</attribute>
+                <attribute name="definition">INTerAction database (IntAct) provides an open source database and toolkit for the storage, presentation and analysis of molecular interactions.</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact</attribute>
+                <attribute name="postaladdress">European Bioinformatics Institute; Wellcome Trust Genome Campus; Hinxton, Cambridge; CB10 1SD; United Kingdom</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact/</attribute>
+            </attributeList>
+        </source>
+        <experimentList>
+            <experimentDescription id="66476">
+                <names>
+                    <shortLabel>yeast-1</shortLabel>
+                    <fullName>Curated complexes - human</fullName>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </bibref>
+                <xref>
+                    <primaryRef db="intact" dbAc="MI:0469" id="EBI-852566" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <hostOrganismList>
+                    <hostOrganism ncbiTaxId="559292">
+                        <names>
+                            <shortLabel>yeast</shortLabel>
+                            <fullName>Saccharomyces cerevisiae</fullName>
+                            <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                        </names>
+                    </hostOrganism>
+                </hostOrganismList>
+                <interactionDetectionMethod>
+                    <names>
+                        <shortLabel>inferred by curator</shortLabel>
+                        <fullName>inferred by curator</fullName>
+                        <alias typeAc="MI:0303" type="go synonym">modelled by curator</alias>
+                        <alias typeAc="MI:0303" type="go synonym">modeled by curator</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0364" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-608505" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </interactionDetectionMethod>
+                <participantIdentificationMethod>
+                    <names>
+                        <shortLabel>predetermined</shortLabel>
+                        <fullName>predetermined participant</fullName>
+                        <alias typeAc="MI:1041" type="synonym">predetermined</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0396" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1465" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </participantIdentificationMethod>
+                <attributeList>
+                    <attribute name="curated-complex"/>
+                    <attribute name="comment" nameAc="MI:0612">A collection of literature-mined stable and functionally defined human molecular complexes of known stoichiometry and biological role.</attribute>
+                </attributeList>
+            </experimentDescription>
+        </experimentList>
+        <interactorList>
+            <interactor id="66477">
+                <names>
+                    <shortLabel>swd2_yeast</shortLabel>
+                    <fullName>COMPASS component SWD2</fullName>
+                    <alias typeAc="MI:0302" type="gene name synonym">CPS35</alias>
+                    <alias typeAc="MI:0305" type="locus name">YKL018W</alias>
+                    <alias typeAc="MI:0301" type="gene name">SWD2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SAF37</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Complex proteins associated with SET1 protein SWD2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Set1C component SWD2</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P36104" version="SP_68" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031509" secondary="subtelomeric heterochromatin formation" version="SP_192"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000723" secondary="telomere maintenance" version="SP_192"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR015943" version="SP_192"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048188" secondary="Set1C/COMPASS complex" version="SP_192"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-26608" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000001501"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR037867" version="SP_192"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005634" secondary="nucleus" version="SP_192"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005847" secondary="mRNA cleavage and polyadenylation specificity factor complex" version="SP_192"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VXR8" version="SP_99" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000781" secondary="chromosome, telomeric region" version="SP_192"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031124" secondary="mRNA 3'-end processing" version="SP_192"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031126" secondary="sno(s)RNA 3'-end processing" version="SP_192"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P36104"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-9772755" version="SP_192"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006378" secondary="mRNA polyadenylation" version="SP_192"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_012907.3"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR036322" version="SP_192"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-6844N"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR001680" version="SP_192"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003682" secondary="chromatin binding" version="SP_192"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0030846" secondary="termination of RNA polymerase II transcription, poly(A)-coupled" version="SP_192"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MTTVSINKPNLLKFKHVKSFQPQEKDCGPVTSLNFDDNGQFLLTSSSNDTMQLYSATNCKFLDTIASKKYGCHSAIFTHAQNECIYSSTMKNFDIKYLNLETNQYLRYFSGHGALVNDLKMNPVNDTFLSSSYDESVRLWDLKISKPQVIIPSLVPNCIAYDPSGLVFALGNPENFEIGLYNLKKIQEGPFLIIKINDATFSQWNKLEFSNNGKYLLVGSSIGKHLIFDAFTGQQLFELIGTRAFPMREFLDSGSACFTPDGEFVLGTDYDGRIAIWNHSDSISNKVLRPQGFIPCVSHETCPRSIAFNPKYSMFVTADETVDFYVYDE</sequence>
+                <attributeList>
+                    <attribute name="crc64">5453C193A5C0AEEC</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="66478">
+                <names>
+                    <shortLabel>swd3_yeast</shortLabel>
+                    <fullName>COMPASS component SWD3</fullName>
+                    <alias typeAc="MI:0302" type="gene name synonym">CPS30</alias>
+                    <alias typeAc="MI:0305" type="locus name">YBR175W</alias>
+                    <alias typeAc="MI:0306" type="orf name">YBR1237</alias>
+                    <alias typeAc="MI:0301" type="gene name">SWD3</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SAF35</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Complex proteins associated with SET1 protein SWD3</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Set1C component SWD3</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P38123" version="SP_59" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P38123"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000000379"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005634" secondary="nucleus" version="SP_185"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR015943" version="SP_185"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VQH0" version="SP_90" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000781" secondary="chromosome, telomeric region" version="SP_185"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-20881" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-9772755" version="SP_185"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:1903341" secondary="regulation of meiotic DNA double-strand break formation" version="SP_185"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_009734.1"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6VEN" version="SP_185"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR036322" version="SP_185"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR001680" version="SP_185"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6BX3" version="SP_185"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0042393" secondary="histone binding" version="SP_185"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048188" secondary="Set1C/COMPASS complex" version="SP_185"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031509" secondary="subtelomeric heterochromatin formation" version="SP_185"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000723" secondary="telomere maintenance" version="SP_185"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-1754N"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MFQFVTPVGTQNGLKATCAKISPDGQFLAITQGLNILIYDINRRTVSQTLVTSHARPFSELCWSPDGQCIATASDDFSVEIIHLSYGLLHTFIGHTAPVISLTFNRKGNLLFTSSMDESIKIWDTLNGSLMKTISAHSEAVVSVDVPMNDSSILSSGSYDGLIRIFDAETGHCLKTLTYDKDWKRENGVVPISQVKFSENARYLLVKSLDGVVKIWDCIGGCVVRTFQVQPLEKGVLHHSCGMDFLNPEDGSTPLVISGYENGDIYCWNSDTKSLLQLLDGSLYHHSSPVMSIHCFGNIMCSLALNGDCCLWRWV</sequence>
+                <attributeList>
+                    <attribute name="crc64">E8E88C483D1CD776</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="66479">
+                <names>
+                    <shortLabel>bre2_yeast</shortLabel>
+                    <fullName>COMPASS component BRE2</fullName>
+                    <alias typeAc="MI:0302" type="gene name synonym">Complex proteins associated with SET1 protein BRE2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Set1C component BRE2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Brefeldin-A sensitivity protein 2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">CPS60</alias>
+                    <alias typeAc="MI:0305" type="locus name">YLR015W</alias>
+                    <alias typeAc="MI:0301" type="gene name">BRE2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">COMPASS protein 60</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P43132" version="SP_53" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005634" secondary="nucleus" version="SP_175"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6VEN" version="SP_175"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR037353" version="SP_175"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="4RT4" version="SP_175"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_013115.1"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR013320" version="SP_175"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000781" secondary="chromosome, telomeric region" version="SP_175"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000004005"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-9772755" version="SP_175"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VY17" version="SP_82" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR003877" version="SP_175"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P43132"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-27115" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000976" secondary="transcription cis-regulatory region binding" version="SP_175"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-1935N"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="E9PA88" version="SP_87" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR043136" version="SP_175"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048188" secondary="Set1C/COMPASS complex" version="SP_175"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031509" secondary="subtelomeric heterochromatin formation" version="SP_175"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6BX3" version="SP_175"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000723" secondary="telomere maintenance" version="SP_175"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MKLGIIPYQEGTDIVYKNALQGQQEGKRPNLPQMEATHQIKSSVQGTSYEFVRTEDIPLNRRHFVYRPCSANPFFTILGYGCTEYPFDHSGMSVMDRSEGLSISRDGNDLVSVPDQYGWRTARSDVCIKEGMTYWEVEVIRGGNKKFADGVNNKENADDSVDEVQSGIYEKMHKQVNDTPHLRFGVCRREASLEAPVGFDVYGYGIRDISLESIHEGKLNCVLENGSPLKEGDKIGFLLSLPSIHTQIKQAKEFTKRRIFALNSHMDTMNEPWREDAENGPSRKKLKQETTNKEFQRALLEDIEYNDVVRDQIAIRYKNQLFFEATDYVKTTKPEYYSSDKRERQDYYQLEDSYLAIFQNGKYLGKAFENLKPLLPPFSELQYNEKFYLGYWQHGEARDESNDKNTTSAKKKKQQQKKKKGLILRNKYVNNNKLGYYPTISCFNGGTARIISEEDKLEYLDQIRSAYCVDGNSKVNTLDTLYKEQIAEDIVWDIIDELEQIALQQ</sequence>
+                <attributeList>
+                    <attribute name="crc64">D5B33221E9F10379</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="66480">
+                <names>
+                    <shortLabel>swd1_yeast</shortLabel>
+                    <fullName>COMPASS component SWD1</fullName>
+                    <alias typeAc="MI:0302" type="gene name synonym">CPS50</alias>
+                    <alias typeAc="MI:0305" type="locus name">YAR003W</alias>
+                    <alias typeAc="MI:0306" type="orf name">FUN16</alias>
+                    <alias typeAc="MI:0301" type="gene name">SWD1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SAF49</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Complex proteins associated with SET1 protein SWD1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Set1C component SWD1</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P39706" version="SP_59" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P39706"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005634" secondary="nucleus" version="SP_185"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR015943" version="SP_185"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-1753N"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000781" secondary="chromosome, telomeric region" version="SP_185"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000000064"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR019775" version="SP_185"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-9772755" version="SP_185"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_009403.1"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6VEN" version="SP_185"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006355" secondary="regulation of DNA-templated transcription" version="SP_185"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR036322" version="SP_185"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR001680" version="SP_185"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR037850" version="SP_185"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VPL8" version="SP_92" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6BX3" version="SP_185"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048188" secondary="Set1C/COMPASS complex" version="SP_185"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031509" secondary="subtelomeric heterochromatin formation" version="SP_185"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000723" secondary="telomere maintenance" version="SP_185"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-20737" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MNILLQDPFAVLKEHPEKLTHTIENPLRTECLQFSPCGDYLALGCANGALVIYDMDTFRPICVPGNMLGAHVRPITSIAWSPDGRLLLTSSRDWSIKLWDLSKPSKPLKEIRFDSPIWGCQWLDAKRRLCVATIFEESDAYVIDFSNDPVASLLSKSDEKQLSSTPDHGYVLVCTVHTKHPNIIIVGTSKGWLDFYKFHSLYQTECIHSLKITSSNIKHLIVSQNGERLAINCSDRTIRQYEISIDDENSAVELTLEHKYQDVINKLQWNCILFSNNTAEYLVASTHGSSAHELYIWETTSGTLVRVLEGAEEELIDINWDFYSMSIVSNGFESGNVYVWSVVIPPKWSALAPDFEEVEENVDYLEKEDEFDEVDEAEQQQGLEQEEEIAIDLRTREQYDVRGNNLLVERFTIPTDYTRIIKMQSS</sequence>
+                <attributeList>
+                    <attribute name="crc64">90C389612AB66231</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="66481">
+                <names>
+                    <shortLabel>sdc1_yeast</shortLabel>
+                    <fullName>COMPASS component SDC1</fullName>
+                    <alias typeAc="MI:0301" type="gene name">SDC1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SAF19</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">CPS25</alias>
+                    <alias typeAc="MI:0305" type="locus name">YDR469W</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Complex proteins associated with SET1 protein SDC1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Set1C component SDC1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Suppressor of CDC25 protein 1</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="Q03323" version="SP_44" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_010757.3"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="Q03323"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6VEN" version="SP_156"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000002877"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005634" secondary="nucleus" version="SP_156"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VT93" version="SP_73" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-38307" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6BX3" version="SP_156"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000781" secondary="chromosome, telomeric region" version="SP_156"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031509" secondary="subtelomeric heterochromatin formation" version="SP_156"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR007858" version="SP_156"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-1738N"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048188" secondary="Set1C/COMPASS complex" version="SP_156"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MNESENSPQHNEVTVPMVEDTSSNADIPMEQIQREDNKNYDKHDNECFDMNGNHNNNSDNLQFDSVPSSATKDLKNIKSVTNQNVKIEESSSTNSVIEESSEPKISKLENVNLAATVGGSQTRKYLNTNVTPHLLAGMRLIAVQQPEDPLRVLGEYLIEQSNILKSGEKESNASK</sequence>
+                <attributeList>
+                    <attribute name="crc64">B40247D641124306</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="66482">
+                <names>
+                    <shortLabel>shg1_yeast</shortLabel>
+                    <fullName>COMPASS component SHG1</fullName>
+                    <alias typeAc="MI:0302" type="gene name synonym">CPS15</alias>
+                    <alias typeAc="MI:0305" type="locus name">YBR258C</alias>
+                    <alias typeAc="MI:0306" type="orf name">YBR1726</alias>
+                    <alias typeAc="MI:0301" type="gene name">SHG1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Complex proteins associated with SET1 protein SHG1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Set1C component SHG1</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P38337" version="SP_53" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005634" secondary="nucleus" version="SP_161"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P38337"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_009817.3"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048188" secondary="Set1C/COMPASS complex" version="SP_161"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-21106" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006338" secondary="chromatin remodeling" version="SP_161"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031509" secondary="subtelomeric heterochromatin formation" version="SP_161"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-6843N"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000000462"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000781" secondary="chromosome, telomeric region" version="SP_161"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VQQ5" version="SP_80" refType="secondary-ac" refTypeAc="MI:0360"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MAYNQEDSKRLSDKYKKEGHFDKLKREILSNPWNNTEENSESFEQALRKRVASTVKEMVNEDEELIFKNRGLTSALIESQLVKDNYLKLGSKMEGDNGDGEKKFDLDVYVRSKLQDPKLLEMIKGQLQETLNSYEEEANGST</sequence>
+            </interactor>
+            <interactor id="66483">
+                <names>
+                    <shortLabel>set1_yeast</shortLabel>
+                    <fullName>Histone-lysine N-methyltransferase, H3 lysine-4 specific</fullName>
+                    <alias typeAc="MI:0301" type="gene name">SET1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">YTX1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">KMT2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">COMPASS component SET1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SET domain-containing protein 1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Lysine N-methyltransferase 2</alias>
+                    <alias typeAc="MI:0305" type="locus name">YHR119W</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P38827" version="SP_63" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000183" secondary="rDNA heterochromatin formation" version="SP_202"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D3DL69" version="SP_101" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-4616N"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0030437" secondary="ascospore formation" version="SP_202"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000001161"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR046341" version="SP_202"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR044570" version="SP_202"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_011987.1"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR012677" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0055092" secondary="sterol homeostasis" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0051568" secondary="histone H3-K4 methylation" version="SP_202"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="2J8A" version="SP_202"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-16977" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0042138" secondary="meiotic DNA double-strand break formation" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048188" secondary="Set1C/COMPASS complex" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016279" secondary="protein-lysine N-methyltransferase activity" version="SP_202"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR024657" version="SP_202"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR048669" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0090241" secondary="negative regulation of histone H4 acetylation" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006357" secondary="regulation of transcription by RNA polymerase II" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:1903341" secondary="regulation of meiotic DNA double-strand break formation" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0045944" secondary="positive regulation of transcription by RNA polymerase II" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005634" secondary="nucleus" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0044648" secondary="histone H3-K4 dimethylation" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006479" secondary="protein methylation" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0010629" secondary="negative regulation of gene expression" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0030466" secondary="silent mating-type cassette heterochromatin formation" version="SP_202"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR024636" version="SP_202"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6VEN" version="SP_202"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P38827"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0007130" secondary="synaptonemal complex assembly" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0042800" secondary="histone H3K4 methyltransferase activity" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0097692" secondary="histone H3-K4 monomethylation" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:1905088" secondary="positive regulation of synaptonemal complex assembly" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003723" secondary="RNA binding" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:1902275" secondary="regulation of chromatin organization" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000122" secondary="negative regulation of transcription by RNA polymerase II" version="SP_202"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-9772755" version="SP_202"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR017111" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031509" secondary="subtelomeric heterochromatin formation" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000723" secondary="telomere maintenance" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000781" secondary="chromosome, telomeric region" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0080182" secondary="histone H3-K4 trimethylation" version="SP_202"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR001214" version="SP_202"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR003616" version="SP_202"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0140999" secondary="histone H3K4 trimethyltransferase activity" version="SP_202"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MSNYYRRAHASSGSYRQPQEQPQYSRSGHYQYSNGHSHQQYSSQYNQRRRYNHNDGTRRRYNDDRPHSSNNASTRQYYATNNSQSGPYVNKKSDISSRRGMSQSRYSNSNVHNTLASSSGSLPTESALLLQQRPPSVLRYNTDNLKSKFHYFDPIKGEFFNKDKMLSWKATDKEFSETGYYVVKELQDGQFKFKIKHRHPEIKASDPRNENGIMTSGKVATHRKCRNSLILLPRISYDRYSLGPPPSCEIVVYPAQDSTTTNIQDISIKNYFKKYGEISHFEAFNDPNSALPLHVYLIKYASSDGKINDAAKAAFSAVRKHESSGCFIMGFKFEVILNKHSILNNIISKFVEINVKKLQKLQENLKKAKEKEAENEKAKELQGKDITLPKEPKVDTLSHSSGSEKRIPYDLLGVVNNRPVLHVSKIFVAKHRFCVEDFKYKLRGYRCAKFIDHPTGIYIIFNDIAHAQTCSNAESGNLTIMSRSRRIPILIKFHLILPRFQNRTRFNKSSSSSNSTNVPIKYESKEEFIEATAKQILKDLEKTLHVDIKKRLIGPTVFDALDHANFPELLAKRELKEKEKRQQIASKIAEDELKRKEEAKRDFDLFGLYGGYAKSNKRNLKRHNSLALDHTSLKRKKLSNGIKPMAHLLNEETDSKETTPLNDEGITRVSKEHDEEDENMTSSSSEEEEEEAPDKKFKSESEPTTPESDHLHGIKPLVPDQNGSSDVLDASSMYKPTATEIPEPVYPPEEYDLKYSQTLSSMDLQNAIKDEEDMLILKQLLSTYTPTVTPETSAALEYKIWQSRRKVLEEEKASDWQIELNGTLFDSELQPGSSFKAEGFRKIADKLKINYLPHRRRVHQPLNTVNIHNERNEYTPELCQREESSNKEPSDSVPQEVSSSRDNRASNRRFQQDIEAQKAAIGTESELLSLNQLNKRKKPVMFARSAIHNWGLYALDSIAAKEMIIEYVGERIRQPVAEMREKRYLKNGIGSSYLFRVDENTVIDATKKGGIARFINHCCDPNCTAKIIKVGGRRRIVIYALRDIAASEELTYDYKFEREKDDEERLPCLCGAPNCKGFLN</sequence>
+                <attributeList>
+                    <attribute name="crc64">B7FA5D60F71063FD</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="66484">
+                <names>
+                    <shortLabel>spp1_yeast</shortLabel>
+                    <fullName>COMPASS component SPP1</fullName>
+                    <alias typeAc="MI:0301" type="gene name">SPP1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SAF41</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Complex proteins associated with SET1 protein SPP1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Set1C component SPP1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Suppressor of PRP protein 1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">CPS40</alias>
+                    <alias typeAc="MI:0305" type="locus name">YPL138C</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="Q03012" version="SP_54" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005829" secondary="cytosol" version="SP_176"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006355" secondary="regulation of DNA-templated transcription" version="SP_176"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005634" secondary="nucleus" version="SP_176"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6J2P" version="SP_176"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6VEN" version="SP_176"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0045893" secondary="positive regulation of DNA-templated transcription" version="SP_176"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:1903341" secondary="regulation of meiotic DNA double-strand break formation" version="SP_176"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000781" secondary="chromosome, telomeric region" version="SP_176"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR037869" version="SP_176"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR001965" version="SP_176"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_015187.1"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR019786" version="SP_176"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0046872" secondary="metal ion binding" version="SP_176"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031509" secondary="subtelomeric heterochromatin formation" version="SP_176"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6BX3" version="SP_176"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-32540" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0035064" secondary="methylated histone binding" version="SP_176"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR013083" version="SP_176"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR019787" version="SP_176"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003682" secondary="chromatin binding" version="SP_176"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-9772755" version="SP_176"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR011011" version="SP_176"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6W3N0" version="SP_85" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000006059"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="Q03012"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-2946N"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048188" secondary="Set1C/COMPASS complex" version="SP_176"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MSLPQWCPPHSTLKRNPTTGEDVYCICKRPDYGELMVGCDGCDDWFHFTCLHIPEQFKDLVFSFYCPYCQAGITGKNKDAIINGEGSLPKTLWKRKCRISDCYKPCLQDSKYCSEEHGREFVNDIWSRLKTDEDRAVVKKMVEQTGHIDKFKKFGQLDFIDNNIVVKTDDEKEIFDQIVVRDMTLKTLEDDLQEVQEISLPLFKKKLELLEVYLGWLDNVYTEMRKLDDDAASHVECGKEDSKGTKRKKKKNSSRSRARKNICGYCSTYERIPCSVEEFVRDFGSNEEATKIHEVCTKWKCNRHLDWVSTNQEQYLQQIDSLESMQERLQHLIQARKKQLNIQYYEEILRRGL</sequence>
+                <attributeList>
+                    <attribute name="crc64">F4B8DFE0CB358CA4</attribute>
+                </attributeList>
+            </interactor>
+        </interactorList>
+        <interactionList>
+            <interaction id="66485">
+                <names>
+                    <shortLabel>compass_yeast</shortLabel>
+                    <fullName>COMPASS complex </fullName>
+                    <alias typeAc="MI:1315" type="complex recommended name">COMPASS complex</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">Complex proteins associated with Set1</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">Set1 complex</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">Set1C</alias>
+                    <alias typeAc="MI:1316" type="complex systematic name">2XBRE2:SDC1:2xSET1:SHG1:2xSPP1:SWD1:SWD2:SWD3</alias>
+                </names>
+                <xref>
+                    <primaryRef db="rhea" dbAc="MI:2344" id="RHEA:60260" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1370464" refType="exp-evidence"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="16582434" refType="see-also" refTypeAc="MI:0361"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="12764140" refType="see-also" refTypeAc="MI:0361"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031509" secondary="subtelomeric heterochromatin assembly" refType="process" refTypeAc="MI:0359"/>
+                    <secondaryRef db="complex portal" dbAc="MI:2279" id="CPX-1039" version="1" refType="complex-primary" refTypeAc="MI:2282"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0042800" secondary="histone methyltransferase activity (H3-K4 specific)" refType="function" refTypeAc="MI:0355"/>
+                    <secondaryRef db="evidence ontology" dbAc="MI:1331" id="ECO:0000353"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005634" secondary="nucleus" refType="component" refTypeAc="MI:0354"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="16980427" refType="see-also" refTypeAc="MI:0361"/>
+                    <secondaryRef db="intenz" dbAc="MI:0585" id="2.1.1.354" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048188" secondary="Set1C/COMPASS complex" refType="component" refTypeAc="MI:0354"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1370909" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <experimentList>
+                    <experimentRef>66476</experimentRef>
+                </experimentList>
+                <participantList>
+                    <participant id="66486">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-1370911" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>66477</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="66487">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-1370912" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>66478</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="66488">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-1370913" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>66479</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 2.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="66489">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-1370914" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>66480</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="66490">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-1370915" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>66481</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="66491">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-1370916" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>66482</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="66492">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-1370917" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>66483</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>enzyme</shortLabel>
+                                <fullName>enzyme</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0501" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-46" refType="identity" refTypeAc="MI:0356"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 2.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="66493">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-1370918" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>66484</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 2.0</attribute>
+                        </attributeList>
+                    </participant>
+                </participantList>
+                <interactionType>
+                    <names>
+                        <shortLabel>physical association</shortLabel>
+                        <fullName>physical association</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0915" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1813147" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactionType>
+                <modelled>false</modelled>
+                <intraMolecular>false</intraMolecular>
+                <negative>false</negative>
+                <attributeList>
+                    <attribute name="curated-complex">Histone methyltransferase that catalyzes methylation of Lys-4 of histone H3 and thus controls the silencing of telomeric regions. SWD1, SWD3, and SET1 constitute a core of the complex, and the absence of any of these subunits abolishes methylation of lysine 4 on histone H3. Subunits BRE2 and SDC1 are essential for trimethylation and important for mono- and dimethylation by the COMPASS complex. SPP1 is important for trimethylation, while SHG1 plays a minor role in trimethylation.</attribute>
+                    <attribute name="complex-properties" nameAc="MI:0629">MW = 1MDa</attribute>
+                    <attribute name="complex-assembly">Heteroundecamer</attribute>
+                </attributeList>
+            </interaction>
+        </interactionList>
+    </entry>
+</entrySet>

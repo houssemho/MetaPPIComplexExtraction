@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entrySet level="2" version="5" minorVersion="4" xsi:schemaLocation="http://psi.hupo.org/mi/mif http://psidev.sourceforge.net/mi/rel25/src/MIF254.xsd" xmlns="http://psi.hupo.org/mi/mif" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <entry>
+        <source releaseDate="2024-02-15Z">
+            <names>
+                <shortLabel>IntAct</shortLabel>
+                <fullName>European Bioinformatics Institute</fullName>
+                <alias typeAc="MI:1041" type="synonym">IntAct</alias>
+                <alias typeAc="MI:1041" type="synonym">intact</alias>
+            </names>
+            <bibref>
+                <xref>
+                    <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                </xref>
+            </bibref>
+            <xref>
+                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0469" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-10" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="19850723" refType="method reference" refTypeAc="MI:0357"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="22121220" refType="method reference" refTypeAc="MI:0357"/>
+            </xref>
+            <attributeList>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/</attribute>
+                <attribute name="search-url" nameAc="MI:0615">http://www.ebi.ac.uk/intact/query/${ac}</attribute>
+                <attribute name="id-validation-regexp" nameAc="MI:0628">EBI-[0-9]+|IA:[0-9]+</attribute>
+                <attribute name="definition">INTerAction database (IntAct) provides an open source database and toolkit for the storage, presentation and analysis of molecular interactions.</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact</attribute>
+                <attribute name="postaladdress">European Bioinformatics Institute; Wellcome Trust Genome Campus; Hinxton, Cambridge; CB10 1SD; United Kingdom</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact/</attribute>
+            </attributeList>
+        </source>
+        <experimentList>
+            <experimentDescription id="70508">
+                <names>
+                    <shortLabel>yeast-1</shortLabel>
+                    <fullName>Curated complexes - human</fullName>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </bibref>
+                <xref>
+                    <primaryRef db="intact" dbAc="MI:0469" id="EBI-852566" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <hostOrganismList>
+                    <hostOrganism ncbiTaxId="559292">
+                        <names>
+                            <shortLabel>yeast</shortLabel>
+                            <fullName>Saccharomyces cerevisiae</fullName>
+                            <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                        </names>
+                    </hostOrganism>
+                </hostOrganismList>
+                <interactionDetectionMethod>
+                    <names>
+                        <shortLabel>inferred by curator</shortLabel>
+                        <fullName>inferred by curator</fullName>
+                        <alias typeAc="MI:0303" type="go synonym">modelled by curator</alias>
+                        <alias typeAc="MI:0303" type="go synonym">modeled by curator</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0364" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-608505" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </interactionDetectionMethod>
+                <participantIdentificationMethod>
+                    <names>
+                        <shortLabel>predetermined</shortLabel>
+                        <fullName>predetermined participant</fullName>
+                        <alias typeAc="MI:1041" type="synonym">predetermined</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0396" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1465" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </participantIdentificationMethod>
+                <attributeList>
+                    <attribute name="curated-complex"/>
+                    <attribute name="comment" nameAc="MI:0612">A collection of literature-mined stable and functionally defined human molecular complexes of known stoichiometry and biological role.</attribute>
+                </attributeList>
+            </experimentDescription>
+        </experimentList>
+        <interactorList>
+            <interactor id="70509">
+                <names>
+                    <shortLabel>syfa_yeast</shortLabel>
+                    <fullName>Phenylalanine--tRNA ligase alpha subunit</fullName>
+                    <alias typeAc="MI:0301" type="gene name">FRS2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Phenylalanyl-tRNA synthetase alpha subunit</alias>
+                    <alias typeAc="MI:0305" type="locus name">YFL022C</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P15625" version="SP_82" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0002161" secondary="aminoacyl-tRNA editing activity" version="SP_203"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR040586" version="SP_203"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000001872"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR045864" version="SP_203"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR006195" version="SP_203"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-5428N"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VTK8" version="SP_112" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_116631.1"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0004826" secondary="phenylalanine-tRNA ligase activity" version="SP_203"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005737" secondary="cytoplasm" version="SP_203"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-18678" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000049" secondary="tRNA binding" version="SP_203"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006432" secondary="phenylalanyl-tRNA aminoacylation" version="SP_203"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005524" secondary="ATP binding" version="SP_203"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR040725" version="SP_203"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P15625"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR002319" version="SP_203"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000287" secondary="magnesium ion binding" version="SP_203"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR004529" version="SP_203"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0009328" secondary="phenylalanine-tRNA ligase complex" version="SP_203"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MSDFQLEILKKLDELDEIKSTLATFPQHGSQDVLSALNSLKAHNKLEFSKVDTVTYDLTKEGAQILNEGSYEIKLVKLIQELGQLQIKDVMSKLGPQVGKVGQARAFKNGWIAKNASNELELSAKLQNTDLNELTDETQSILAQIKNNSHLDSIDAKILNDLKKRKLIAQGKITDFNVTKGPEFSTDLTKLETDLTSDMVSTNAYKDLKFKPYNFNSQGVQISSGALHPLNKVREEFRQIFFSMGFTEMPSNQYVETGFWNFDALYVPQQHPARDLQDTFYIKDPLTADLPDDKTYMDNIKAVHEQGRFGSIGYRYNWKPEECQKLVLRTHSTAISARMLHDLAKDPKPTRLFSIDRVFRNEAVDATHLAEFHQVEGVLADYNITLGDLIKFMEEFFERMGVTGLRFKPTYNPYTEPSMEIFSWHEGLQKWVEIGNSGMFRPEMLESMGLPKDLRVLGWGLSLERPTMIKYKVQNIRELLGHKVSLDFIETNPAARLDEDLYE</sequence>
+                <attributeList>
+                    <attribute name="crc64">50B7EAC675AB559B</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="70510">
+                <names>
+                    <shortLabel>syfb_yeast</shortLabel>
+                    <fullName>Phenylalanine--tRNA ligase beta subunit</fullName>
+                    <alias typeAc="MI:0301" type="gene name">FRS1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Phenylalanyl-tRNA synthetase beta subunit</alias>
+                    <alias typeAc="MI:0306" type="orf name">L2165</alias>
+                    <alias typeAc="MI:0305" type="locus name">YLR060W</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P15624" version="SP_73" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR045864" version="SP_190"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003723" secondary="RNA binding" version="SP_190"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR045060" version="SP_190"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005524" secondary="ATP binding" version="SP_190"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="E9P8X0" version="SP_110" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0004826" secondary="phenylalanine-tRNA ligase activity" version="SP_190"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005737" secondary="cytoplasm" version="SP_190"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR020825" version="SP_190"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR004531" version="SP_190"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR040659" version="SP_190"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR041616" version="SP_190"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0009328" secondary="phenylalanine-tRNA ligase complex" version="SP_190"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P15624"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR005146" version="SP_190"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000287" secondary="magnesium ion binding" version="SP_190"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-18684" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_013161.1"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006432" secondary="phenylalanyl-tRNA aminoacylation" version="SP_190"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR009061" version="SP_190"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-6746N"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000004050"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VY62" version="SP_106" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR005147" version="SP_190"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MPTVSVNKQQLFDLLGKNYTSQEFDELCFEFGMEMDEDTTEEALKTGEEPELKLDISANRYDLLCIEGISQSLNEYLERKERPDYKLSKPTTKLIIDKSTEQIRPFATAAVLRNIKLNEKSYASFIALQDKLHANLCRNRSLVAMGTHDLDSIEGPFHYRALPPKDIKFVPLNQTQEFTGDKLIEFYKSPEQKNNIGRYVHIIEDSPVFPVIMDSKDRVCSLPPLINSEHSKISVNTRNILIDITATDKTKAEIVLNILTTMFSRYCDEPFTVEPVEIVSEHNGQSRLAPNFNDRIMDVSIKYINSCLGLDQSADEIAHCLKKMSLHAVQSKEDKDILHVDIPVTRPDILHACDIMEDAAVGYGFNNLPKGEKLSNANFIAKPLPINKVSDIFRVASSQATWVEVLPLTLCSHDENFKFLRQSDNGDLAVKLANPKTLEYQVVRTTLLPGILKTVKENRKHSLPIKVFETGDVVFKDDKLERKAYNERHWAAIYVGKNSGFEIIQGLLGKIMQTFRTEWIADYGAAASGRGYWIEEDDSVKTYFPGRGAKVMFRSKEGAEPKQIGHLGVLHPEVMMNFDVPFAASFVEVNAEVFL</sequence>
+            </interactor>
+        </interactorList>
+        <interactionList>
+            <interaction id="70511">
+                <names>
+                    <shortLabel>trna-phe-synth_yeast</shortLabel>
+                    <fullName>Phenylalanyl-tRNA synthetase</fullName>
+                    <alias typeAc="MI:1315" type="complex recommended name">Phenylalanyl-tRNA synthetase complex</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">Phenylalanyl-tRNA synthetase, cytoplasmic</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">Phenylalanine--tRNA ligase</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">Phenylalanine-tRNA ligase complex</alias>
+                    <alias typeAc="MI:1316" type="complex systematic name">2xFRS1:2xFRS2</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">SYFA-SYFB complex</alias>
+                </names>
+                <xref>
+                    <primaryRef db="intenz" dbAc="MI:0585" id="6.1.1.20" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006432" secondary="phenylalanyl-tRNA aminoacylation" refType="process" refTypeAc="MI:0359"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000049" secondary="tRNA binding" refType="function" refTypeAc="MI:0355"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0004826" secondary="phenylalanine-tRNA ligase activity" refType="function" refTypeAc="MI:0355"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-809760" refType="exp-evidence"/>
+                    <secondaryRef db="evidence ontology" dbAc="MI:1331" id="ECO:0000353"/>
+                    <secondaryRef db="rhea" dbAc="MI:2344" id="RHEA:19413" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005524" secondary="ATP binding" refType="function" refTypeAc="MI:0355"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-2474694" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="complex portal" dbAc="MI:2279" id="CPX-1738" version="1" refType="complex-primary" refTypeAc="MI:2282"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0009328" secondary="phenylalanine-tRNA ligase complex" refType="component" refTypeAc="MI:0354"/>
+                </xref>
+                <experimentList>
+                    <experimentRef>70508</experimentRef>
+                </experimentList>
+                <participantList>
+                    <participant id="70512">
+                        <names>
+                            <shortLabel>n/a</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-2474695" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>70509</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>enzyme</shortLabel>
+                                <fullName>enzyme</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0501" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-46" refType="identity" refTypeAc="MI:0356"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <featureList>
+                            <feature id="70513">
+                                <names>
+                                    <shortLabel>frs1 binding region</shortLabel>
+                                </names>
+                                <xref>
+                                    <primaryRef db="intact" dbAc="MI:0469" id="EBI-21994670" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                                <featureType>
+                                    <names>
+                                        <shortLabel>binding region</shortLabel>
+                                        <fullName>binding-associated region</fullName>
+                                        <alias typeAc="MI:1041" type="synonym">binding region</alias>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0117" refType="identity" refTypeAc="MI:0356"/>
+                                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-456493" refType="identity" refTypeAc="MI:0356"/>
+                                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    </xref>
+                                </featureType>
+                                <featureRangeList>
+                                    <featureRange>
+                                        <startStatus>
+                                            <names>
+                                                <shortLabel>undetermined</shortLabel>
+                                                <fullName>undetermined sequence position</fullName>
+                                                <alias typeAc="MI:1041" type="synonym">undetermined</alias>
+                                            </names>
+                                            <xref>
+                                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0339" refType="identity" refTypeAc="MI:0356"/>
+                                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-448295" refType="identity" refTypeAc="MI:0356"/>
+                                            </xref>
+                                        </startStatus>
+                                        <endStatus>
+                                            <names>
+                                                <shortLabel>undetermined</shortLabel>
+                                                <fullName>undetermined sequence position</fullName>
+                                                <alias typeAc="MI:1041" type="synonym">undetermined</alias>
+                                            </names>
+                                            <xref>
+                                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0339" refType="identity" refTypeAc="MI:0356"/>
+                                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-448295" refType="identity" refTypeAc="MI:0356"/>
+                                            </xref>
+                                        </endStatus>
+                                        <isLink>false</isLink>
+                                    </featureRange>
+                                </featureRangeList>
+                            </feature>
+                        </featureList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 2.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="70514">
+                        <names>
+                            <shortLabel>n/a</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-2474698" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>70510</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <featureList>
+                            <feature id="70515">
+                                <names>
+                                    <shortLabel>frs2 binding region</shortLabel>
+                                </names>
+                                <xref>
+                                    <primaryRef db="intact" dbAc="MI:0469" id="EBI-21994672" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                                <featureType>
+                                    <names>
+                                        <shortLabel>binding region</shortLabel>
+                                        <fullName>binding-associated region</fullName>
+                                        <alias typeAc="MI:1041" type="synonym">binding region</alias>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0117" refType="identity" refTypeAc="MI:0356"/>
+                                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-456493" refType="identity" refTypeAc="MI:0356"/>
+                                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    </xref>
+                                </featureType>
+                                <featureRangeList>
+                                    <featureRange>
+                                        <startStatus>
+                                            <names>
+                                                <shortLabel>undetermined</shortLabel>
+                                                <fullName>undetermined sequence position</fullName>
+                                                <alias typeAc="MI:1041" type="synonym">undetermined</alias>
+                                            </names>
+                                            <xref>
+                                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0339" refType="identity" refTypeAc="MI:0356"/>
+                                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-448295" refType="identity" refTypeAc="MI:0356"/>
+                                            </xref>
+                                        </startStatus>
+                                        <endStatus>
+                                            <names>
+                                                <shortLabel>undetermined</shortLabel>
+                                                <fullName>undetermined sequence position</fullName>
+                                                <alias typeAc="MI:1041" type="synonym">undetermined</alias>
+                                            </names>
+                                            <xref>
+                                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0339" refType="identity" refTypeAc="MI:0356"/>
+                                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-448295" refType="identity" refTypeAc="MI:0356"/>
+                                            </xref>
+                                        </endStatus>
+                                        <isLink>false</isLink>
+                                    </featureRange>
+                                </featureRangeList>
+                            </feature>
+                        </featureList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 2.0</attribute>
+                        </attributeList>
+                    </participant>
+                </participantList>
+                <inferredInteractionList>
+                    <inferredInteraction>
+                        <participant>
+                            <participantFeatureRef>70515</participantFeatureRef>
+                        </participant>
+                        <participant>
+                            <participantFeatureRef>70513</participantFeatureRef>
+                        </participant>
+                    </inferredInteraction>
+                </inferredInteractionList>
+                <interactionType>
+                    <names>
+                        <shortLabel>direct interaction</shortLabel>
+                        <fullName>direct interaction</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0407" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-608833" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </interactionType>
+                <modelled>false</modelled>
+                <intraMolecular>false</intraMolecular>
+                <negative>false</negative>
+                <attributeList>
+                    <attribute name="curated-complex">Catalyses the esterificaion of phenylalanine to its cognate tRNA with the concomitant hydrolysis of ATP. The activated amino acid is transferred to the 2-OH group of a phenylalanine-accepting tRNA. </attribute>
+                    <attribute name="complex-properties" nameAc="MI:0629">The N-terminal domain of each beta subunit (residues l-172) contains the major tRNA-Phe binding sites.</attribute>
+                    <attribute name="complex-assembly">Heterotetramer</attribute>
+                </attributeList>
+            </interaction>
+        </interactionList>
+    </entry>
+</entrySet>

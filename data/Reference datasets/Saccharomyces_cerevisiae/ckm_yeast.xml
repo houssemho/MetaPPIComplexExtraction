@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entrySet level="2" version="5" minorVersion="4" xsi:schemaLocation="http://psi.hupo.org/mi/mif http://psidev.sourceforge.net/mi/rel25/src/MIF254.xsd" xmlns="http://psi.hupo.org/mi/mif" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <entry>
+        <source releaseDate="2024-02-15Z">
+            <names>
+                <shortLabel>IntAct</shortLabel>
+                <fullName>European Bioinformatics Institute</fullName>
+                <alias typeAc="MI:1041" type="synonym">IntAct</alias>
+                <alias typeAc="MI:1041" type="synonym">intact</alias>
+            </names>
+            <bibref>
+                <xref>
+                    <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                </xref>
+            </bibref>
+            <xref>
+                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0469" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-10" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="19850723" refType="method reference" refTypeAc="MI:0357"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="22121220" refType="method reference" refTypeAc="MI:0357"/>
+            </xref>
+            <attributeList>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/</attribute>
+                <attribute name="search-url" nameAc="MI:0615">http://www.ebi.ac.uk/intact/query/${ac}</attribute>
+                <attribute name="id-validation-regexp" nameAc="MI:0628">EBI-[0-9]+|IA:[0-9]+</attribute>
+                <attribute name="definition">INTerAction database (IntAct) provides an open source database and toolkit for the storage, presentation and analysis of molecular interactions.</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact</attribute>
+                <attribute name="postaladdress">European Bioinformatics Institute; Wellcome Trust Genome Campus; Hinxton, Cambridge; CB10 1SD; United Kingdom</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact/</attribute>
+            </attributeList>
+        </source>
+        <experimentList>
+            <experimentDescription id="71296">
+                <names>
+                    <shortLabel>yeast-1</shortLabel>
+                    <fullName>Curated complexes - human</fullName>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </bibref>
+                <xref>
+                    <primaryRef db="intact" dbAc="MI:0469" id="EBI-852566" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <hostOrganismList>
+                    <hostOrganism ncbiTaxId="559292">
+                        <names>
+                            <shortLabel>yeast</shortLabel>
+                            <fullName>Saccharomyces cerevisiae</fullName>
+                            <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                        </names>
+                    </hostOrganism>
+                </hostOrganismList>
+                <interactionDetectionMethod>
+                    <names>
+                        <shortLabel>inferred by curator</shortLabel>
+                        <fullName>inferred by curator</fullName>
+                        <alias typeAc="MI:0303" type="go synonym">modelled by curator</alias>
+                        <alias typeAc="MI:0303" type="go synonym">modeled by curator</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0364" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-608505" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </interactionDetectionMethod>
+                <participantIdentificationMethod>
+                    <names>
+                        <shortLabel>predetermined</shortLabel>
+                        <fullName>predetermined participant</fullName>
+                        <alias typeAc="MI:1041" type="synonym">predetermined</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0396" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1465" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </participantIdentificationMethod>
+                <attributeList>
+                    <attribute name="curated-complex"/>
+                    <attribute name="comment" nameAc="MI:0612">A collection of literature-mined stable and functionally defined human molecular complexes of known stoichiometry and biological role.</attribute>
+                </attributeList>
+            </experimentDescription>
+        </experimentList>
+        <interactorList>
+            <interactor id="71297">
+                <names>
+                    <shortLabel>ssn8_yeast</shortLabel>
+                    <fullName>RNA polymerase II holoenzyme cyclin-like subunit</fullName>
+                    <alias typeAc="MI:0301" type="gene name">SSN8</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SRB11</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">GIG3</alias>
+                    <alias typeAc="MI:0305" type="locus name">YNL025C</alias>
+                    <alias typeAc="MI:0306" type="orf name">N2805</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">NUT9</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">UME3</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Suppressor of RNA polymerase B 11</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P47821" version="SP_63" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:1990508" secondary="CKM complex" version="SP_178"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="7KPV" version="SP_178"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005634" secondary="nucleus" version="SP_178"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000411" secondary="positive regulation of transcription by galactose" version="SP_178"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR036915" version="SP_178"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="7KPX" version="SP_178"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6W1F3" version="SP_85" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000122" secondary="negative regulation of transcription by RNA polymerase II" version="SP_178"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-20078" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR043198" version="SP_178"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000004970"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016538" secondary="cyclin-dependent protein serine/threonine kinase regulator activity" version="SP_178"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR006671" version="SP_178"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016592" secondary="mediator complex" version="SP_178"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_014373.3"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000979" secondary="RNA polymerase II core promoter sequence-specific DNA binding" version="SP_178"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0045944" secondary="positive regulation of transcription by RNA polymerase II" version="SP_178"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR013763" version="SP_178"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-2007N"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P47821"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MSGSFWTSTQRHHWQYTKASLAKERQKLWLLECQLFPQGLNIVMDSKQNGIEQSITKNIPITHRDLHYDKDYNLRIYCYFLIMKLGRRLNIRQYALATAHIYLSRFLIKASVREINLYMLVTTCVYLACKVEECPQYIRTLVSEARTLWPEFIPPDPTKVTEFEFYLLEELESYLIVHHPYQSLKQIVQVLKQPPFQITLSSDDLQNCWSLINDSYINDVHLLYPPHIIAVACLFITISIHGKPTKGSSLASAASEAIRDPKNSSSPVQIAFNRFMAESLVDLEEVMDTIQEQITLYDHWDKYHEQWIKFLLHTLYLRPASAI</sequence>
+                <attributeList>
+                    <attribute name="crc64">2BA16A3374CCF207</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="71298">
+                <names>
+                    <shortLabel>srb8_yeast</shortLabel>
+                    <fullName>Mediator of RNA polymerase II transcription subunit 12</fullName>
+                    <alias typeAc="MI:0301" type="gene name">SRB8</alias>
+                    <alias typeAc="MI:0305" type="locus name">YCR081W</alias>
+                    <alias typeAc="MI:0306" type="orf name">YCR81W/YCR80W</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Mediator complex subunit 12</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Suppressor of RNA polymerase B 8</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">GIG1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">MED12</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">NUT6</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SSN5</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P25648" version="SP_59" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:1990508" secondary="CKM complex" version="SP_169"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="7KPV" version="SP_169"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-18053" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000411" secondary="positive regulation of transcription by galactose" version="SP_169"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P25648"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-1018N"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000122" secondary="negative regulation of transcription by RNA polymerase II" version="SP_169"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR019035" version="SP_169"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="7KPW" version="SP_169"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003713" secondary="transcription coactivator activity" version="SP_169"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0045944" secondary="positive regulation of transcription by RNA polymerase II" version="SP_169"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VR82" version="SP_81" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="7KPX" version="SP_169"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016592" secondary="mediator complex" version="SP_169"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="P25647" version="SP_59" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000000677"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_010004.1"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MNNGSGRYLLTPPDDLHPYVPSSKPQEQVYPDFKPWEHTAAEDQILANFVAKGFYHTPMVNFESISARSSVHESLVTQSNILSQQFDKIIKIREDHINKIPSNSTTTLHGPGFQLPNRITLTDHRKETWLHELSSSHTSLVKIGKFIPHGLKRRQVIEQCYLKFIPLKRAIWLIKCCYFIEWKSNHKKKRSNAAGADDAISMHLLKDWTDTFVYILEKLIFDMTNHYNDSQQLRTWKRQISYFLKLLGNCYSLRLINKEIFHHWLVEFINKMENFEFLPLSLHILMIFWNDICQIDTNAPVAATITSSQKEPFFLVTKITDMLLHKYYIVSSSKSMINDENYIINDIKKNNKIKLNILKILSSLILKIFQEQSLEVFIFPTSNWEIYKPLLFEIVSNADTNQNSDMKKKLELISYRNESLKNNSSIRNVIMSASNANDFQLTIVTCKQFPKLSCIQLNCIDTQFTKLLDDNPTEFDWPTYVDQNPLTMHKIIQLILWSIHPSRQFDHYESNQLVAKLLLLRINSTDEDLHEFQIEDAIWSLVFQLAKNFSAQKRVVSYMMPSLYRLLNILITYGIIKVPTYIRKLISSGLLYLQDSNDKFVHVQLLINLKISPLMKSQYNMVLRNVMEYDVKFYEIFNFDQLVEITEQIKMRILSNDITNLQLSKTPLSIKIMVAEWYLSHLCSGILSSVNRTVLLKIFKIFCIDLEVFHHFFKWIEFIVYHQLLSDIESLEALMDILLCYQKLFSQFINDHILFTKTFIFIYKKVLKEKDVPAYNVTSFMPFWKFFMKNFPFVLKVDNDLRIELQSVYNDEKLKTEKLKNDKSEVLKVYSMINNSNQAVGQTWNFPEVFQVNIRFLLHNSEIIDTNTSKQFQKARNNVMLLIATNLKEYNKFMSIFLKRKDFTNKNLIQLISLKLLTFEVTQNVLGLEYIIRLLPINLENNDGSYGLFLKYHKEQFIKSNFEKILLTCYELEKKYHGNECEINYYEILLKILITYGSSPKLLATSTKIIMLLLNDSVENSSNILEDILYYSTCPSETDLNDIPLGSGQPDNDTVVTNDDKSDDDDHTVDEIDHVEYYVMMDFANLWVFQAFTCFCIKKIMENNEPAMAMEDLKNFIFQIIEITNSNDLCSQIFDQLKDMQTIEMITQIVEKDFCTSCLQNNNQKIDDNYIVVVIEIITSLSMRFQRETSGMIVISMENYHLLIKIIRQLSELNEGNLSKREIQIDAVLKIFSFHQDSIFQRIIADLSADKPTSPFIDSICKLFDKISFNLRLKLFLYEILSSLKSFAIYSSTIDAPAFHTSGKVELPKKLLNLPPFQVSSFVKETKLHSGDYGEEEDADQEESFSLNLGIGIVEIAHENEQKWLIYDKKDHKYVCTFSMEPYHFISNYNTKYTDDMATGSNDTTAFNDSCVNLSLFDARFERKNPH</sequence>
+            </interactor>
+            <interactor id="71299">
+                <names>
+                    <shortLabel>ssn2_yeast</shortLabel>
+                    <fullName>Mediator of RNA polymerase II transcription subunit 13</fullName>
+                    <alias typeAc="MI:0301" type="gene name">SSN2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SCA1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">MED13</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">NUT8</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">RYE3</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SRB9</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">UME2</alias>
+                    <alias typeAc="MI:0305" type="locus name">YDR443C</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Mediator complex subunit 13</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Suppressor of RNA polymerase B SSN2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Protein SCA1</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P38931" version="SP_59" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="7KPX" version="SP_176"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR021643" version="SP_176"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P38931"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="7KPV" version="SP_176"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000002851"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR009401" version="SP_176"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_010731.3"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-18059" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000122" secondary="negative regulation of transcription by RNA polymerase II" version="SP_176"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:1990508" secondary="CKM complex" version="SP_176"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VT69" version="SP_83" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000435" secondary="positive regulation of transcription from RNA polymerase II promoter by galactose" version="SP_176"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003713" secondary="transcription coactivator activity" version="SP_176"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0045944" secondary="positive regulation of transcription by RNA polymerase II" version="SP_176"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-5947N"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016592" secondary="mediator complex" version="SP_176"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MSSDASTYRLEDVLSSFYRVEKIKKINYHQYISKAQNDQWSIQMEFMLRKQDPKTLVALLSRDLWCFSINDDPVPTPPAIEHKPVSPDKIGTFTADYSKPNLPPHYALFLKALRRKIYINLALGSHNKLIQFGNACISLSGVPNYLVQLEPHLFVNGDLTVSLCAKNMGLVPMKEENLEESFLSKHALYLAPSGIRMHLAPASKQGYLITPPKHTELLLTTLSVSHGINLQNKKNLKWVAVVPDLGHLNGHTPTIASYLTPLLEAKKLVWPLHLIFAQPVADIENSTSGDPSEFHCLQDALDAIDDFIQLKQTAAYRTPGSSGVLSSNIAGTNPLSSDGAYTEQFQHYKNNSISSQPASYHSVQETNKISPKDFSPNFTGIDKLMLSPSDQFAPAFLNTPNNNINENELFNDRKQTTVSNDLENSPLKTELEANGRSLEKVNNSVSKTGSVDTLHNKEGTLEQREQNENLPSDKSDSMVDKELFGEDEDEDLFGDSNKSNSTNESNKSISDEITEDMFEMSDEEENNNNKSINKNNKEMHTDLGKDIPFFPSSEKPNIRTMSGTTKRLNGKRKYLDIPIDEMTLPTSPLYMDPGAPLPVETPRDRRKSVFAPLNFNPIIENNVDNKYKSGGKFSFSPLQKEEALNFDISMADLSSSEEEEDEEENGSSDEDLKSLNVRDDMKPSDNISTNTNIHEPQYINYSSIPSLQDSIIKQENFNSVNDANITSNKEGFNSIWKIPQNDIPQTESPLKTVDSSIQPIESNIKMTLEDNNVTSNPSEFTPNMVNSEISNLPKDKSGIPEFTPADPNLSFESSSSLPFLLRHMPLASIPDIFITPTPVVTISEKEQDILDLIAEQVVTDYNILGNLGIPKIAYRGVKDCQEGLITTTMLQLFSTFDRLNGNDTISKFYNMKQPYVFVKKHHELIKVKHDSQPFIKFLNFRPPNGIKNFKSLLLSSSFKEDCLSFAPTLSQTYINQELGFCELLKLTNEDPPGLMYLKAFDKNKLLLLAAQIVSYCSNNKNSIKNVPPILIILPLDNATLTELVDKANIFQVIKNEVCAKMPNIELYLKVIPMDFIRNVLVTVDQYVNVAISIYNMLPPKSVKFTHIAHTLPEKVNFRTMQQQQMQQQQQQQQQQQNNSTGSSSIIYYDSYIHLAYSRSVDKEWVFAALSDSYGQGSMTKTWYVGNSRGKFDDACNQIWNIALNLASKKFGKICLILTRLNGILPDDELMNWRRLSGRNIHLAVVCVDDNSKISFIDEDKLYPSFKPIYKDTRFGGRMDMTRLYDYEIRDIDQDIHGIVFQHPFPLAHSQHRCAIRSGALIKFKKCDGDTVWDKFAVNLLNCPHSDSTQLLETILEEFRNLAALNVWYGLSDGEDGHIPWHILAVKKMMNTLVHTRVKIANTSAATVHTATSSSIILSDK</sequence>
+            </interactor>
+            <interactor id="71300">
+                <names>
+                    <shortLabel>ssn3_yeast</shortLabel>
+                    <fullName>Meiotic mRNA stability protein kinase SSN3</fullName>
+                    <alias typeAc="MI:0301" type="gene name">SSN3</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">ARE1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SRB10</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">CDK8</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">GIG2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">UME5</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Cyclin-dependent kinase 8</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Suppressor of RNA polymerase B SRB10</alias>
+                    <alias typeAc="MI:0305" type="locus name">YPL042C</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P39073" version="SP_81" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0046872" secondary="metal ion binding" version="SP_206"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000005963"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0070481" secondary="nuclear-transcribed mRNA catabolic process, non-stop decay" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0004672" secondary="protein kinase activity" version="SP_206"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_015283.1"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005524" secondary="ATP binding" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0051321" secondary="meiotic cell cycle" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005634" secondary="nucleus" version="SP_206"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR000719" version="SP_206"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P39073"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6W3X1" version="SP_105" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="7KPV" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0060258" secondary="negative regulation of filamentous growth" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0106310" secondary="protein serine kinase activity" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:1990508" secondary="CKM complex" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0008353" secondary="RNA polymerase II CTD heptapeptide repeat kinase activity" version="SP_206"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR008271" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000435" secondary="positive regulation of transcription from RNA polymerase II promoter by galactose" version="SP_206"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-2574N"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0004693" secondary="cyclin-dependent protein serine/threonine kinase activity" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031648" secondary="protein destabilization" version="SP_206"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR011009" version="SP_206"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-20082" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000122" secondary="negative regulation of transcription by RNA polymerase II" version="SP_206"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="7KPX" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016310" secondary="phosphorylation" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016592" secondary="mediator complex" version="SP_206"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MYNGKDRAQNSYQPMYQRPMQVQGQQQAQSFVGKKNTIGSVHGKAPMLMANNDVFTIGPYRARKDRMRVSVLEKYEVIGYIAAGTYGKVYKAKRQINSGTNSANGSSLNGTNAKIPQFDSTQPKSSSSMDMQANTNALRRNLLKDEGVTPGRIRTTREDVSPHYNSQKQTLIKKPLTVFYAIKKFKTEKDGVEQLHYTGISQSACREMALCRELHNKHLTTLVEIFLERKCVHMVYEYAEHDLLQIIHFHSHPEKRMIPPRMVRSIMWQLLDGVSYLHQNWVLHRDLKPANIMVTIDGCVKIGDLGLARKFHNMLQTLYTGDKVVVTIWYRAPELLLGARHYTPAVDLWSVGCIFAELIGLQPIFKGEEAKLDSKKTVPFQVNQLQRILEVLGTPDQKIWPYLEKYPEYDQITKFPKYRDNLATWYHSAGGRDKHALSLLYHLLNYDPIKRIDAFNALEHKYFTESDIPVSENVFEGLTYKYPARRIHTNDNDIMNLGSRTKNNTQASGITAGAAANALGGLGVNRRILAAAAAAAAAVSGNNASDEPSRKKNRR</sequence>
+                <attributeList>
+                    <attribute name="crc64">C7B6DDC868CCD61E</attribute>
+                </attributeList>
+            </interactor>
+        </interactorList>
+        <interactionList>
+            <interaction id="71301">
+                <names>
+                    <shortLabel>ckm_yeast</shortLabel>
+                    <alias typeAc="MI:0673" type="complex synonym">SRB8/9/10/11 complex</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">CDK kinase module complex</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">SRB8-SRB11 complex</alias>
+                    <alias typeAc="MI:1315" type="complex recommended name">CKM complex</alias>
+                    <alias typeAc="MI:1316" type="complex systematic name">SSN2:SSN3:SSN8:SRB8</alias>
+                </names>
+                <xref>
+                    <primaryRef db="intenz" dbAc="MI:0585" id="2.7.11.23" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1792921" refType="exp-evidence"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-2640924" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="intenz" dbAc="MI:0585" id="2.7.11.22" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0004693" secondary="cyclin-dependent protein serine/threonine kinase activity" refType="function" refTypeAc="MI:0355"/>
+                    <secondaryRef db="evidence ontology" dbAc="MI:1331" id="ECO:0000353"/>
+                    <secondaryRef db="rhea" dbAc="MI:2344" id="RHEA:46608" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="rhea" dbAc="MI:2344" id="RHEA:10216" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0036033" secondary="mediator complex binding" refType="function" refTypeAc="MI:0355"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:1990508" secondary="CKM complex" refType="component" refTypeAc="MI:0354"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="12200444" refType="see-also" refTypeAc="MI:0361"/>
+                    <secondaryRef db="complex portal" dbAc="MI:2279" id="CPX-1853" version="1" refType="complex-primary" refTypeAc="MI:2282"/>
+                </xref>
+                <experimentList>
+                    <experimentRef>71296</experimentRef>
+                </experimentList>
+                <participantList>
+                    <participant id="71302">
+                        <names>
+                            <shortLabel>n/a</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-2640929" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>71297</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                    </participant>
+                    <participant id="71303">
+                        <names>
+                            <shortLabel>n/a</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-2640928" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>71298</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <featureList>
+                            <feature id="71304">
+                                <names>
+                                    <shortLabel>ssn3 binding region</shortLabel>
+                                </names>
+                                <xref>
+                                    <primaryRef db="intact" dbAc="MI:0469" id="EBI-9823908" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                                <featureType>
+                                    <names>
+                                        <shortLabel>binding region</shortLabel>
+                                        <fullName>binding-associated region</fullName>
+                                        <alias typeAc="MI:1041" type="synonym">binding region</alias>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0117" refType="identity" refTypeAc="MI:0356"/>
+                                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-456493" refType="identity" refTypeAc="MI:0356"/>
+                                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    </xref>
+                                </featureType>
+                                <featureRangeList>
+                                    <featureRange>
+                                        <startStatus>
+                                            <names>
+                                                <shortLabel>undetermined</shortLabel>
+                                                <fullName>undetermined sequence position</fullName>
+                                                <alias typeAc="MI:1041" type="synonym">undetermined</alias>
+                                            </names>
+                                            <xref>
+                                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0339" refType="identity" refTypeAc="MI:0356"/>
+                                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-448295" refType="identity" refTypeAc="MI:0356"/>
+                                            </xref>
+                                        </startStatus>
+                                        <endStatus>
+                                            <names>
+                                                <shortLabel>undetermined</shortLabel>
+                                                <fullName>undetermined sequence position</fullName>
+                                                <alias typeAc="MI:1041" type="synonym">undetermined</alias>
+                                            </names>
+                                            <xref>
+                                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0339" refType="identity" refTypeAc="MI:0356"/>
+                                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-448295" refType="identity" refTypeAc="MI:0356"/>
+                                            </xref>
+                                        </endStatus>
+                                        <isLink>false</isLink>
+                                    </featureRange>
+                                </featureRangeList>
+                            </feature>
+                        </featureList>
+                    </participant>
+                    <participant id="71305">
+                        <names>
+                            <shortLabel>n/a</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-2640930" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>71299</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                    </participant>
+                    <participant id="71306">
+                        <names>
+                            <shortLabel>n/a</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-2640931" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>71300</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>enzyme</shortLabel>
+                                <fullName>enzyme</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0501" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-46" refType="identity" refTypeAc="MI:0356"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <featureList>
+                            <feature id="71307">
+                                <names>
+                                    <shortLabel>srb8 binding region</shortLabel>
+                                </names>
+                                <xref>
+                                    <primaryRef db="intact" dbAc="MI:0469" id="EBI-9823906" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                                <featureType>
+                                    <names>
+                                        <shortLabel>binding region</shortLabel>
+                                        <fullName>binding-associated region</fullName>
+                                        <alias typeAc="MI:1041" type="synonym">binding region</alias>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0117" refType="identity" refTypeAc="MI:0356"/>
+                                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-456493" refType="identity" refTypeAc="MI:0356"/>
+                                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    </xref>
+                                </featureType>
+                                <featureRangeList>
+                                    <featureRange>
+                                        <startStatus>
+                                            <names>
+                                                <shortLabel>undetermined</shortLabel>
+                                                <fullName>undetermined sequence position</fullName>
+                                                <alias typeAc="MI:1041" type="synonym">undetermined</alias>
+                                            </names>
+                                            <xref>
+                                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0339" refType="identity" refTypeAc="MI:0356"/>
+                                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-448295" refType="identity" refTypeAc="MI:0356"/>
+                                            </xref>
+                                        </startStatus>
+                                        <endStatus>
+                                            <names>
+                                                <shortLabel>undetermined</shortLabel>
+                                                <fullName>undetermined sequence position</fullName>
+                                                <alias typeAc="MI:1041" type="synonym">undetermined</alias>
+                                            </names>
+                                            <xref>
+                                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0339" refType="identity" refTypeAc="MI:0356"/>
+                                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-448295" refType="identity" refTypeAc="MI:0356"/>
+                                            </xref>
+                                        </endStatus>
+                                        <isLink>false</isLink>
+                                    </featureRange>
+                                </featureRangeList>
+                            </feature>
+                        </featureList>
+                    </participant>
+                </participantList>
+                <inferredInteractionList>
+                    <inferredInteraction>
+                        <participant>
+                            <participantFeatureRef>71307</participantFeatureRef>
+                        </participant>
+                        <participant>
+                            <participantFeatureRef>71304</participantFeatureRef>
+                        </participant>
+                    </inferredInteraction>
+                </inferredInteractionList>
+                <interactionType>
+                    <names>
+                        <shortLabel>physical association</shortLabel>
+                        <fullName>physical association</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0915" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1813147" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactionType>
+                <modelled>false</modelled>
+                <intraMolecular>false</intraMolecular>
+                <negative>false</negative>
+                <attributeList>
+                    <attribute name="curated-complex">Cyclin-dependent kinase complex which reversibly associates with the Mediator complex (CPX-3226). The mediator complex lacking the CKM complex has a stimulatory effect on basal transcription. In contrast, the mediator complex containing the sub-complex represses basal transcription. This effect is independent of kinase activity but binding of the complex to the Mediator may interfere with RNAPII recruitment and repress transcription re-initiation.</attribute>
+                    <attribute name="complex-properties" nameAc="MI:0629">Mol. weight = 430 kDa. The complex is roughly 200 × 100 A in size, with two bent features protruding from a globular central density.</attribute>
+                </attributeList>
+            </interaction>
+        </interactionList>
+    </entry>
+</entrySet>

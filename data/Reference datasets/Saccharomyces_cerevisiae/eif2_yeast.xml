@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entrySet level="2" version="5" minorVersion="4" xsi:schemaLocation="http://psi.hupo.org/mi/mif http://psidev.sourceforge.net/mi/rel25/src/MIF254.xsd" xmlns="http://psi.hupo.org/mi/mif" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <entry>
+        <source releaseDate="2024-02-15Z">
+            <names>
+                <shortLabel>IntAct</shortLabel>
+                <fullName>European Bioinformatics Institute</fullName>
+                <alias typeAc="MI:1041" type="synonym">IntAct</alias>
+                <alias typeAc="MI:1041" type="synonym">intact</alias>
+            </names>
+            <bibref>
+                <xref>
+                    <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                </xref>
+            </bibref>
+            <xref>
+                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0469" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-10" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="19850723" refType="method reference" refTypeAc="MI:0357"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="22121220" refType="method reference" refTypeAc="MI:0357"/>
+            </xref>
+            <attributeList>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/</attribute>
+                <attribute name="search-url" nameAc="MI:0615">http://www.ebi.ac.uk/intact/query/${ac}</attribute>
+                <attribute name="id-validation-regexp" nameAc="MI:0628">EBI-[0-9]+|IA:[0-9]+</attribute>
+                <attribute name="definition">INTerAction database (IntAct) provides an open source database and toolkit for the storage, presentation and analysis of molecular interactions.</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact</attribute>
+                <attribute name="postaladdress">European Bioinformatics Institute; Wellcome Trust Genome Campus; Hinxton, Cambridge; CB10 1SD; United Kingdom</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact/</attribute>
+            </attributeList>
+        </source>
+        <experimentList>
+            <experimentDescription id="64706">
+                <names>
+                    <shortLabel>yeast-1</shortLabel>
+                    <fullName>Curated complexes - human</fullName>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </bibref>
+                <xref>
+                    <primaryRef db="intact" dbAc="MI:0469" id="EBI-852566" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <hostOrganismList>
+                    <hostOrganism ncbiTaxId="559292">
+                        <names>
+                            <shortLabel>yeast</shortLabel>
+                            <fullName>Saccharomyces cerevisiae</fullName>
+                            <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                        </names>
+                    </hostOrganism>
+                </hostOrganismList>
+                <interactionDetectionMethod>
+                    <names>
+                        <shortLabel>inferred by curator</shortLabel>
+                        <fullName>inferred by curator</fullName>
+                        <alias typeAc="MI:0303" type="go synonym">modelled by curator</alias>
+                        <alias typeAc="MI:0303" type="go synonym">modeled by curator</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0364" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-608505" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </interactionDetectionMethod>
+                <participantIdentificationMethod>
+                    <names>
+                        <shortLabel>predetermined</shortLabel>
+                        <fullName>predetermined participant</fullName>
+                        <alias typeAc="MI:1041" type="synonym">predetermined</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0396" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1465" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </participantIdentificationMethod>
+                <attributeList>
+                    <attribute name="curated-complex"/>
+                    <attribute name="comment" nameAc="MI:0612">A collection of literature-mined stable and functionally defined human molecular complexes of known stoichiometry and biological role.</attribute>
+                </attributeList>
+            </experimentDescription>
+        </experimentList>
+        <interactorList>
+            <interactor id="64707">
+                <names>
+                    <shortLabel>if2g_yeast</shortLabel>
+                    <fullName>Eukaryotic translation initiation factor 2 subunit gamma</fullName>
+                    <alias typeAc="MI:0305" type="locus name">YER025W</alias>
+                    <alias typeAc="MI:0301" type="gene name">GCD11</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">TIF213</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SUI4</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P32481" version="SP_69" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0001731" secondary="formation of translation preinitiation complex" version="SP_204"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-2561N"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="3J81" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0045903" secondary="positive regulation of translational fidelity" version="SP_204"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72702" version="SP_204"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D3DLS4" version="SP_99" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG5" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0043614" secondary="multi-eIF complex" version="SP_204"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR000795" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6GSN" version="SP_204"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR044127" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG2" version="SP_204"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR044128" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="3JAP" version="SP_204"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-8924" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR009000" version="SP_204"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72695" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000049" secondary="tRNA binding" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005525" secondary="GTP binding" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6GSM" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6FYY" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG3" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="4ZGN" version="SP_204"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR009001" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6I7T" version="SP_204"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR015256" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003743" secondary="translation initiation factor activity" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003924" secondary="GTPase activity" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6FYX" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="4ZGQ" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005850" secondary="eukaryotic translation initiation factor 2 complex" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG0" version="SP_204"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72731" version="SP_204"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-156827" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006413" secondary="translational initiation" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031369" secondary="translation initiation factor binding" version="SP_204"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR027417" version="SP_204"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000000827"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG1" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005840" secondary="ribosome" version="SP_204"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR004161" version="SP_204"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72649" version="SP_204"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-382556" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005829" secondary="cytosol" version="SP_204"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6I3M" version="SP_204"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_010942.1"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG6" version="SP_204"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P32481"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0033290" secondary="eukaryotic 48S preinitiation complex" version="SP_204"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016282" secondary="eukaryotic 43S preinitiation complex" version="SP_204"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MSDLQDQEPSIIINGNLEPVGEPDIVEETEVVAQETQETQDADKPKKKVAFTGLEEDGETEEEKRKREFEEGGGLPEQPLNPDFSKLNPLSAEIINRQATINIGTIGHVAHGKSTVVRAISGVQTVRFKDELERNITIKLGYANAKIYKCQEPTCPEPDCYRSFKSDKEISPKCQRPGCPGRYKLVRHVSFVDCPGHDILMSTMLSGAAVMDAALLLIAGNESCPQPQTSEHLAAIEIMKLKHVIILQNKVDLMREESALEHQKSILKFIRGTIADGAPIVPISAQLKYNIDAVNEFIVKTIPVPPRDFMISPRLIVIRSFDVNKPGAEIEDLKGGVAGGSILNGVFKLGDEIEIRPGIVTKDDKGKIQCKPIFSNIVSLFAEQNDLKFAVPGGLIGVGTKVDPTLCRADRLVGQVVGAKGHLPNIYTDIEINYFLLRRLLGVKTDGQKQAKVRKLEPNEVLMVNIGSTATGARVVAVKADMARLQLTSPACTEINEKIALSRRIEKHWRLIGWATIKKGTTLEPIA</sequence>
+                <attributeList>
+                    <attribute name="crc64">D498AE62BC3E81CD</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="64708">
+                <names>
+                    <shortLabel>if2a_yeast</shortLabel>
+                    <fullName>Eukaryotic translation initiation factor 2 subunit alpha</fullName>
+                    <alias typeAc="MI:0301" type="gene name">SUI2</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">TIF211</alias>
+                    <alias typeAc="MI:0305" type="locus name">YJR007W</alias>
+                    <alias typeAc="MI:0306" type="orf name">J1429</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P20459" version="SP_75" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG5" version="SP_207"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0001731" secondary="formation of translation preinitiation complex" version="SP_207"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR011488" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="3J81" version="SP_207"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72702" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="8QEL" version="SP_207"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005829" secondary="cytosol" version="SP_207"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0043614" secondary="multi-eIF complex" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6GSN" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG2" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG3" version="SP_207"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-2327N"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="3JAP" version="SP_207"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003723" secondary="RNA binding" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6I7T" version="SP_207"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VWI2" version="SP_104" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6GSM" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6FYY" version="SP_207"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003743" secondary="translation initiation factor activity" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG0" version="SP_207"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0043022" secondary="ribosome binding" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6JLY" version="SP_207"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005850" secondary="eukaryotic translation initiation factor 2 complex" version="SP_207"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-156827" version="SP_207"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72731" version="SP_207"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006413" secondary="translational initiation" version="SP_207"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P20459"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6FYX" version="SP_207"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR044126" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6JLZ" version="SP_207"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="E9P8T6" version="SP_109" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0010494" secondary="cytoplasmic stress granule" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG1" version="SP_207"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72695" version="SP_207"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR024055" version="SP_207"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR024054" version="SP_207"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005840" secondary="ribosome" version="SP_207"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR003029" version="SP_207"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-8915" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6I3M" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="2A1A" version="SP_207"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR012340" version="SP_207"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000003767"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_012540.3"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72649" version="SP_207"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-382556" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG6" version="SP_207"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0033290" secondary="eukaryotic 48S preinitiation complex" version="SP_207"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005737" secondary="cytoplasm" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="1Q46" version="SP_207"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="2A19" version="SP_207"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MSTSHCRFYENKYPEIDDIVMVNVQQIAEMGAYVKLLEYDNIEGMILLSELSRRRIRSIQKLIRVGKNDVAVVLRVDKEKGYIDLSKRRVSSEDIIKCEEKYQKSKTVHSILRYCAEKFQIPLEELYKTIAWPLSRKFGHAYEAFKLSIIDETVWEGIEPPSKDVLDELKNYISKRLTPQAVKIRADVEVSCFSYEGIDAIKDALKSAEDMSTEQMQVKVKLVAAPLYVLTTQALDKQKGIEQLESAIEKITEVITKYGGVCNITMPPKAVTATEDAELQALLESKELDNRSDSEDDEDESDDE</sequence>
+                <attributeList>
+                    <attribute name="crc64">AF4F1C80303A4E98</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="64709">
+                <names>
+                    <shortLabel>if2b_yeast</shortLabel>
+                    <fullName>Eukaryotic translation initiation factor 2 subunit beta</fullName>
+                    <alias typeAc="MI:0305" type="locus name">YPL237W</alias>
+                    <alias typeAc="MI:0301" type="gene name">SUI3</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">TIF212</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P09064" version="SP_75" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="Q6B200" version="SP_75" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003743" secondary="translation initiation factor activity" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6FYX" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="3J81" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG0" version="SP_200"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0001732" secondary="formation of cytoplasmic translation initiation complex" version="SP_200"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-156827" version="SP_200"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006413" secondary="translational initiation" version="SP_200"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6W3D3" version="SP_102" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-2310N"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005840" secondary="ribosome" version="SP_200"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72702" version="SP_200"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031369" secondary="translation initiation factor binding" version="SP_200"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_015087.1"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000006158"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG1" version="SP_200"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0001731" secondary="formation of translation preinitiation complex" version="SP_200"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0043614" secondary="multi-eIF complex" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG5" version="SP_200"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005829" secondary="cytosol" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG2" version="SP_200"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72649" version="SP_200"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-382556" version="SP_200"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P09064" version="SP_191"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72695" version="SP_200"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR045196" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="3JAP" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6GSM" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG6" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6FYY" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6QG3" version="SP_200"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-8920" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR016190" version="SP_200"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005850" secondary="eukaryotic translation initiation factor 2 complex" version="SP_200"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR002735" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6I7T" version="SP_200"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-72731" version="SP_200"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR016189" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6I3M" version="SP_200"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003729" secondary="mRNA binding" version="SP_200"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016282" secondary="eukaryotic 43S preinitiation complex" version="SP_200"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0046872" secondary="metal ion binding" version="SP_200"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="6GSN" version="SP_200"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MSSDLAAELGFDPALKKKKKTKKVIPDDFDAAVNGKENGSGDDLFAGLKKKKKKSKSVSADAEAEKEPTDDIAEALGELSLKKKKKKTKDSSVDAFEKELAKAGLDNVDAESKEGTPSANSSIQQEVGLPYSELLSRFFNILRTNNPELAGDRSGPKFRIPPPVCLRDGKKTIFSNIQDIAEKLHRSPEHLIQYLFAELGTSGSVDGQKRLVIKGKFQSKQMENVLRRYILEYVTCKTCKSINTELKREQSNRLFFMVCKSCGSTRSVSSIKTGFQATVGKRRRM</sequence>
+                <attributeList>
+                    <attribute name="crc64">34DE9323876CEE95</attribute>
+                </attributeList>
+            </interactor>
+        </interactorList>
+        <interactionList>
+            <interaction id="64710">
+                <names>
+                    <shortLabel>eif2_yeast</shortLabel>
+                    <alias typeAc="MI:0673" type="complex synonym">IF-2 complex</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">IF2 complex</alias>
+                    <alias typeAc="MI:1316" type="complex systematic name">GCD11:SUI2:SUI3</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">eIF2 complex</alias>
+                    <alias typeAc="MI:1315" type="complex recommended name">Eukaryotic translation initiation factor 2 complex</alias>
+                    <alias typeAc="MI:0673" type="complex synonym">eIF-2 complex</alias>
+                </names>
+                <xref>
+                    <primaryRef db="rhea" dbAc="MI:2344" id="Rhea 19669" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006413" secondary="translational initiation" refType="process" refTypeAc="MI:0359"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005525" secondary="GTP binding" refType="function" refTypeAc="MI:0355"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-11710491" refType="exp-evidence"/>
+                    <secondaryRef db="intenz" dbAc="MI:0585" id="3.6.5.3" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-11710314" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:1990856" secondary="methionyl-initiator methionine tRNA binding" refType="function" refTypeAc="MI:0355"/>
+                    <secondaryRef db="evidence ontology" dbAc="MI:1331" id="ECO:0000353"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0003743" secondary="translation initiation factor activity" refType="function" refTypeAc="MI:0355"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="8947054" refType="see-also" refTypeAc="MI:0361"/>
+                    <secondaryRef db="complex portal" dbAc="MI:2279" id="CPX-427" version="1" refType="complex-primary" refTypeAc="MI:2282"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005840" secondary="ribosome" refType="component" refTypeAc="MI:0354"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005850" secondary="eukaryotic translation initiation factor 2 complex" refType="component" refTypeAc="MI:0354"/>
+                </xref>
+                <experimentList>
+                    <experimentRef>64706</experimentRef>
+                </experimentList>
+                <participantList>
+                    <participant id="64711">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-11710368" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>64707</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>enzyme</shortLabel>
+                                <fullName>enzyme</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0501" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-46" refType="identity" refTypeAc="MI:0356"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="64712">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-11710369" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>64708</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="64713">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-11710370" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>64709</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                </participantList>
+                <interactionType>
+                    <names>
+                        <shortLabel>physical association</shortLabel>
+                        <fullName>physical association</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0915" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1813147" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactionType>
+                <modelled>false</modelled>
+                <intraMolecular>false</intraMolecular>
+                <negative>false</negative>
+                <attributeList>
+                    <attribute name="curated-complex">Delivers initiator methionyl-tRNA to the 40S ribosomal subunit in a eukaryotic translation initiation factor 2 (eIF2).GTP.Met-tRNA(Met) ternary complex. The resulting 43S complex, which also includes eIF3 and eIF1A, binds at or near the 5-prime end of capped eukaryotic messenger RNAs. Recognition of the AUG codon translational start site is accompanied by GTP hydrolysis (stimulated by the eIF5 complex), which releases Met-tRNA to the ribosomal peptidyl site and converts eIF2-GTP to eIF2-GDP. Binding of nucleotide exchange factor eIF2B complex (CPX-429) replaces GDP again for GTP. This activity is inhibited when phosphorylated eIF2 (alpha subunit) binds to eIF2B.  Phosphorylation of eIF2 occurs in response to nutrient starvation and thus prevents further protein synthesis.&#13;
+</attribute>
+                    <attribute name="complex-assembly">Heterotrimer</attribute>
+                    <attribute name="complex-properties" nameAc="MI:0629">Molecular weight = 125 kDa</attribute>
+                </attributeList>
+            </interaction>
+        </interactionList>
+    </entry>
+</entrySet>

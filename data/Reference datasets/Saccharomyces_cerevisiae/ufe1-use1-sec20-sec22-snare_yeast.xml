@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entrySet level="2" version="5" minorVersion="4" xsi:schemaLocation="http://psi.hupo.org/mi/mif http://psidev.sourceforge.net/mi/rel25/src/MIF254.xsd" xmlns="http://psi.hupo.org/mi/mif" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <entry>
+        <source releaseDate="2024-02-15Z">
+            <names>
+                <shortLabel>IntAct</shortLabel>
+                <fullName>European Bioinformatics Institute</fullName>
+                <alias typeAc="MI:1041" type="synonym">IntAct</alias>
+                <alias typeAc="MI:1041" type="synonym">intact</alias>
+            </names>
+            <bibref>
+                <xref>
+                    <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                </xref>
+            </bibref>
+            <xref>
+                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0469" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-10" refType="identity" refTypeAc="MI:0356"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="19850723" refType="method reference" refTypeAc="MI:0357"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                <secondaryRef db="pubmed" dbAc="MI:0446" id="22121220" refType="method reference" refTypeAc="MI:0357"/>
+            </xref>
+            <attributeList>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/</attribute>
+                <attribute name="search-url" nameAc="MI:0615">http://www.ebi.ac.uk/intact/query/${ac}</attribute>
+                <attribute name="id-validation-regexp" nameAc="MI:0628">EBI-[0-9]+|IA:[0-9]+</attribute>
+                <attribute name="definition">INTerAction database (IntAct) provides an open source database and toolkit for the storage, presentation and analysis of molecular interactions.</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact</attribute>
+                <attribute name="postaladdress">European Bioinformatics Institute; Wellcome Trust Genome Campus; Hinxton, Cambridge; CB10 1SD; United Kingdom</attribute>
+                <attribute name="url" nameAc="MI:0614">http://www.ebi.ac.uk/intact/</attribute>
+            </attributeList>
+        </source>
+        <experimentList>
+            <experimentDescription id="70618">
+                <names>
+                    <shortLabel>yeast-1</shortLabel>
+                    <fullName>Curated complexes - human</fullName>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="MI:0446" id="14681455" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </bibref>
+                <xref>
+                    <primaryRef db="intact" dbAc="MI:0469" id="EBI-852566" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <hostOrganismList>
+                    <hostOrganism ncbiTaxId="559292">
+                        <names>
+                            <shortLabel>yeast</shortLabel>
+                            <fullName>Saccharomyces cerevisiae</fullName>
+                            <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                        </names>
+                    </hostOrganism>
+                </hostOrganismList>
+                <interactionDetectionMethod>
+                    <names>
+                        <shortLabel>inferred by curator</shortLabel>
+                        <fullName>inferred by curator</fullName>
+                        <alias typeAc="MI:0303" type="go synonym">modelled by curator</alias>
+                        <alias typeAc="MI:0303" type="go synonym">modeled by curator</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0364" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-608505" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </interactionDetectionMethod>
+                <participantIdentificationMethod>
+                    <names>
+                        <shortLabel>predetermined</shortLabel>
+                        <fullName>predetermined participant</fullName>
+                        <alias typeAc="MI:1041" type="synonym">predetermined</alias>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0396" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1465" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                    </xref>
+                </participantIdentificationMethod>
+                <attributeList>
+                    <attribute name="curated-complex"/>
+                    <attribute name="comment" nameAc="MI:0612">A collection of literature-mined stable and functionally defined human molecular complexes of known stoichiometry and biological role.</attribute>
+                </attributeList>
+            </experimentDescription>
+        </experimentList>
+        <interactorList>
+            <interactor id="70619">
+                <names>
+                    <shortLabel>sec20_yeast</shortLabel>
+                    <fullName>Protein transport protein SEC20</fullName>
+                    <alias typeAc="MI:0301" type="gene name">SEC20</alias>
+                    <alias typeAc="MI:0306" type="orf name">D9719.4</alias>
+                    <alias typeAc="MI:0305" type="locus name">YDR498C</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P28791" version="SP_68" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000002906"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016020" secondary="membrane" version="SP_174"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_010786.3"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P28791"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0098554" secondary="cytoplasmic side of endoplasmic reticulum membrane" version="SP_174"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-5844N"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR005606" version="SP_174"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-16572" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0012508" secondary="Golgi to ER transport vesicle membrane" version="SP_174"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031201" secondary="SNARE complex" version="SP_174"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006890" secondary="retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum" version="SP_174"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="8EKI" version="SP_174"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005783" secondary="endoplasmic reticulum" version="SP_174"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0015031" secondary="protein transport" version="SP_174"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005484" secondary="SNAP receptor activity" version="SP_174"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-6811434" version="SP_174"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VTC0" version="SP_91" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048279" secondary="vesicle fusion with endoplasmic reticulum" version="SP_174"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MVVTFLQDLEVLQDALLNNLQKLSAISRRKESGESKHDNKDSFAAIANEHNDEEEEIEFEDLVNIIESKVSDFESVLKCSIVEMTYKYPELKLQWEKSPRYDQCDKLHIVKLDKQMNEDIYAQLVEELDFVLQFVDWFYCYRLKVKEILRQHHKRDLAWNDEKRDRAIKFHAVDYDKLHQGTSSSSSLTSTSMEKASTREKLLSKTKQLTNNLVRGNQILQSGILQSDLNLDELRAQTNSLTQIDDKYTQFETVFKKTADLVKVLENASHQEKRDVYLSLGFLLCCVSWVLWRRIFKLPVKLGLWLLFKFFKGILVTLGLVKSYAGSSSSLQAPSLVLNAPILATTTTSSATSVEPFASVSAVSSIQRAVDEAVDRIVSHDEL</sequence>
+                <attributeList>
+                    <attribute name="crc64">9BF8C748B8A8F589</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="70620">
+                <names>
+                    <shortLabel>sec22_yeast</shortLabel>
+                    <fullName>Protein transport protein SEC22</fullName>
+                    <alias typeAc="MI:0301" type="gene name">SEC22</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SLY2</alias>
+                    <alias typeAc="MI:0305" type="locus name">YLR268W</alias>
+                    <alias typeAc="MI:0306" type="orf name">L8479.3</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">TSL26</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Suppressor of loss of YPT1 protein 2</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P22214" version="SP_92" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005484" secondary="SNAP receptor activity" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005794" secondary="Golgi apparatus" version="SP_214"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_013370.1"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031201" secondary="SNARE complex" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016020" secondary="membrane" version="SP_214"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P22214" version="SP_206"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0098554" secondary="cytoplasmic side of endoplasmic reticulum membrane" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0000139" secondary="Golgi membrane" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005793" secondary="endoplasmic reticulum-Golgi intermediate compartment" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048280" secondary="vesicle fusion with Golgi apparatus" version="SP_214"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-5694530" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0012508" secondary="Golgi to ER transport vesicle membrane" version="SP_214"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VYR6" version="SP_117" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR010908" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006906" secondary="vesicle fusion" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006890" secondary="retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum" version="SP_214"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR044565" version="SP_214"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-204005" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005789" secondary="endoplasmic reticulum membrane" version="SP_214"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR042855" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006888" secondary="endoplasmic reticulum to Golgi vesicle-mediated transport" version="SP_214"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000004258"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005783" secondary="endoplasmic reticulum" version="SP_214"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR011012" version="SP_214"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-6811434" version="SP_214"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-2234N"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048279" secondary="vesicle fusion with endoplasmic reticulum" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006886" secondary="intracellular protein transport" version="SP_214"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0012507" secondary="ER to Golgi transport vesicle membrane" version="SP_214"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-16577" refType="identity" refTypeAc="MI:0356"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MIKSTLIYREDGLPLCTSVDNENDPSLFEQKQKVKIVVSRLTPQSATEATLESGSFEIHYLKKSMVYYFVICESGYPRNLAFSYLNDIAQEFEHSFANEYPKPTVRPYQFVNFDNFLQMTKKSYSDKKVQDNLDQLNQELVGVKQIMSKNIEDLLYRGDSLDKMSDMSSSLKETSKRYRKSAQKINFDLLISQYAPIVIVAFFFVFLFWWIFLK</sequence>
+                <attributeList>
+                    <attribute name="crc64">9FA3E34EAAFB9536</attribute>
+                </attributeList>
+            </interactor>
+            <interactor id="70621">
+                <names>
+                    <shortLabel>ufe1_yeast</shortLabel>
+                    <fullName>Syntaxin UFE1</fullName>
+                    <alias typeAc="MI:0301" type="gene name">UFE1</alias>
+                    <alias typeAc="MI:0306" type="orf name">YOR29-26</alias>
+                    <alias typeAc="MI:0305" type="locus name">YOR075W</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P41834" version="SP_59" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031201" secondary="SNARE complex" version="SP_162"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0098554" secondary="cytoplasmic side of endoplasmic reticulum membrane" version="SP_162"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0016320" secondary="endoplasmic reticulum membrane fusion" version="SP_162"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-20016" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0012508" secondary="Golgi to ER transport vesicle membrane" version="SP_162"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005783" secondary="endoplasmic reticulum" version="SP_162"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_014718.1"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR000727" version="SP_162"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0015031" secondary="protein transport" version="SP_162"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-2942N"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000005601"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005484" secondary="SNAP receptor activity" version="SP_162"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-6811434" version="SP_162"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6W2D8" version="SP_81" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048279" secondary="vesicle fusion with endoplasmic reticulum" version="SP_162"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR019529" version="SP_162"/>
+                    <secondaryRef db="mint" dbAc="MI:0471" id="P41834"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006890" secondary="retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum" version="SP_162"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MMSDLTPIFRKYVAVIDDARNEQNGIDDHVERKQEDFGNSNETCEMFRDSFIKECARLLKFLVELNKVIKQIEKNYLDDFNMSDAEKDEFDMECRLQIQQYFKKFEFLENYEMERHNLSLKRFQSKSHRWSKILSNKNDNTKHVIHPQDIENGVYEFRLGVLRCLNLWIKYVSSKFTTIQQERLILENKMNFNSTPMPTLSNNADDFSADAIDISVSQSAPVETVQDEVKHYEETISKLTQEQLQVLETEHSELLNQKNEQLKKVETINKTILDIVNIQNELSNHLTVQSQNINLMLNNQDDIELNIKKGNKELRKAKRAAGRTAKMTTYGAIIMGVFILFLDYVG</sequence>
+            </interactor>
+            <interactor id="70622">
+                <names>
+                    <shortLabel>use1_yeast</shortLabel>
+                    <fullName>Protein transport protein USE1</fullName>
+                    <alias typeAc="MI:0301" type="gene name">USE1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SLT1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">Unconventional SNARE in the endoplasmic reticulum protein 1</alias>
+                    <alias typeAc="MI:0302" type="gene name synonym">SNARE-like tail-anchored protein 1</alias>
+                    <alias typeAc="MI:0305" type="locus name">YGL098W</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="MI:0486" id="P53146" version="SP_58" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="refseq" dbAc="MI:0481" id="NP_011417.1"/>
+                    <secondaryRef db="interpro" dbAc="MI:0449" id="IPR019150" version="SP_157"/>
+                    <secondaryRef db="sgd" dbAc="MI:0484" id="S000003066"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0098554" secondary="cytoplasmic side of endoplasmic reticulum membrane" version="SP_157"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031201" secondary="SNARE complex" version="SP_157"/>
+                    <secondaryRef db="dip" dbAc="MI:0465" id="DIP-5478N"/>
+                    <secondaryRef db="reactome" dbAc="MI:0467" id="R-SCE-6811434"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0015031" secondary="protein transport" version="SP_157"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-23881" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0012508" secondary="Golgi to ER transport vesicle membrane" version="SP_157"/>
+                    <secondaryRef db="uniprotkb" dbAc="MI:0486" id="D6VU47" version="SP_81" refType="secondary-ac" refTypeAc="MI:0360"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005783" secondary="endoplasmic reticulum" version="SP_157"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006890" secondary="retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum" version="SP_157"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048279" secondary="vesicle fusion with endoplasmic reticulum" version="SP_157"/>
+                    <secondaryRef db="rcsb pdb" dbAc="MI:0460" id="8EKI" version="SP_157"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0005484" secondary="SNAP receptor activity" version="SP_157"/>
+                </xref>
+                <interactorType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                        <fullName>protein</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="so" dbAc="MI:0601" id="SO:0000358" refType="see-also" refTypeAc="MI:0361"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-619654" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactorType>
+                <organism ncbiTaxId="559292">
+                    <names>
+                        <shortLabel>yeast</shortLabel>
+                        <fullName>Saccharomyces cerevisiae</fullName>
+                        <alias typeAc="MI:1041" type="synonym">Baker's yeast</alias>
+                    </names>
+                </organism>
+                <sequence>MAETSNDPFLSYVLSSKQLTNLNRLRRKAVTKQLGSSDDNKVSEEFLRYQHTYQREAFEYLQTKHDAHKIMESQYEQYQSSSKTRRYSIDLDSVDAVDTESQTEYPNEEFIDRNEDSEAVMELRKRLLGKGQNKGLGYETTKSVDRQIEDQDTLQQDLIQDMSKLVGSLKQGAVAFQSALDEDKQVLGAAEIGIQVASQGLMDVSGKLRKYDKSKLSYLFYITVFIFMILGLVFTFIIIQLFPAL</sequence>
+                <attributeList>
+                    <attribute name="crc64">213ABBF0492E80EF</attribute>
+                </attributeList>
+            </interactor>
+        </interactorList>
+        <interactionList>
+            <interaction id="70623">
+                <names>
+                    <shortLabel>ufe1-use1-sec20-sec22-snare_yeast</shortLabel>
+                    <alias typeAc="MI:1315" type="complex recommended name">Endoplasmic reticulum snare complex UFE1-USE1-SEC20-SEC22</alias>
+                    <alias typeAc="MI:1316" type="complex systematic name">SEC20:SEC22:UFE1:USE1</alias>
+                </names>
+                <xref>
+                    <primaryRef db="intact" dbAc="MI:0469" id="EBI-25417212" refType="identity" refTypeAc="MI:0356"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0006890" secondary="retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum" refType="process" refTypeAc="MI:0359"/>
+                    <secondaryRef db="complex portal" dbAc="MI:2279" id="CPX-5304" version="1" refType="complex-primary" refTypeAc="MI:2282"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="20521906" refType="see-also" refTypeAc="MI:0361"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="20005805" refType="see-also" refTypeAc="MI:0361"/>
+                    <secondaryRef db="evidence ontology" dbAc="MI:1331" id="ECO:0005547"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0012508" secondary="Golgi to ER transport vesicle membrane" refType="component" refTypeAc="MI:0354"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0031201" secondary="SNARE complex" refType="component" refTypeAc="MI:0354"/>
+                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-2509473" refType="exp-evidence"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="16912714" refType="see-also" refTypeAc="MI:0361"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="24119662" refType="see-also" refTypeAc="MI:0361"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0098554" secondary="cytoplasmic side of endoplasmic reticulum membrane" refType="component" refTypeAc="MI:0354"/>
+                    <secondaryRef db="go" dbAc="MI:0448" id="GO:0048279" secondary="vesicle fusion with endoplasmic reticulum" refType="process" refTypeAc="MI:0359"/>
+                    <secondaryRef db="pubmed" dbAc="MI:0446" id="9214619" refType="see-also" refTypeAc="MI:0361"/>
+                </xref>
+                <experimentList>
+                    <experimentRef>70618</experimentRef>
+                </experimentList>
+                <participantList>
+                    <participant id="70624">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-25419218" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>70619</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="70625">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-25419219" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>70620</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="70626">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-25419220" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>70621</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                    <participant id="70627">
+                        <names>
+                            <shortLabel>N/A</shortLabel>
+                        </names>
+                        <xref>
+                            <primaryRef db="intact" dbAc="MI:0469" id="EBI-25419221" refType="identity" refTypeAc="MI:0356"/>
+                        </xref>
+                        <interactorRef>70622</interactorRef>
+                        <biologicalRole>
+                            <names>
+                                <shortLabel>unspecified role</shortLabel>
+                                <fullName>unspecified role</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0499" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="intact" dbAc="MI:0469" id="EBI-77781" refType="identity" refTypeAc="MI:0356"/>
+                                <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                            </xref>
+                        </biologicalRole>
+                        <experimentalRoleList>
+                            <experimentalRole>
+                                <names>
+                                    <shortLabel>neutral component</shortLabel>
+                                    <fullName>neutral component</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0497" refType="identity" refTypeAc="MI:0356"/>
+                                    <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                                    <secondaryRef db="intact" dbAc="MI:0469" id="EBI-55" refType="identity" refTypeAc="MI:0356"/>
+                                </xref>
+                            </experimentalRole>
+                        </experimentalRoleList>
+                        <attributeList>
+                            <attribute name="comment" nameAc="MI:0612">Stoichiometry: 1.0</attribute>
+                        </attributeList>
+                    </participant>
+                </participantList>
+                <interactionType>
+                    <names>
+                        <shortLabel>physical association</shortLabel>
+                        <fullName>physical association</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0915" refType="identity" refTypeAc="MI:0356"/>
+                        <secondaryRef db="pubmed" dbAc="MI:0446" id="14755292" refType="primary-reference" refTypeAc="MI:0358"/>
+                        <secondaryRef db="intact" dbAc="MI:0469" id="EBI-1813147" refType="identity" refTypeAc="MI:0356"/>
+                    </xref>
+                </interactionType>
+                <modelled>false</modelled>
+                <intraMolecular>false</intraMolecular>
+                <negative>false</negative>
+                <attributeList>
+                    <attribute name="curated-complex">SNARE complex required for the fusion of retrograde transport vesicles with the endoplasmic reticulum. Mediates membrane fusion through the spontaneous assembly of four complementary SNARE (soluble N-ethylmaleimide-sensitive factor attachment protein receptors) motifs. SNAREs bind to each other in-trans, that is, with SNAREs anchored in each apposed tethered membrane. The assembly process leads to a tight connection between the fusing membranes and initiates membrane fusion. </attribute>
+                    <attribute name="complex-properties" nameAc="MI:0629">When interacting sets of SNAREs are combined, the SNARE motifs spontaneously associate to form elongated coiled coils of four intertwined, parallel alpha-helices (a SNAREpin), with each helix being provided by a different SNARE motif. The centre of the bundle contains 16 stacked layers of interacting side chains. These layers are largely hydrophobic, except for a central 0 layer that contains three highly conserved glutamine (Q) residues and one highly conserved arginine (R) residue.  SNARE motifs are classified into Qa-, Qb-, Qc- and R-SNAREs and the hetero-oligomeric SNARE complexes that drive membrane fusion require that each parallel four-helix bundles is invariant and contains one each of the Qa-, Qb-, Qc- and R-SNAREs.</attribute>
+                    <attribute name="complex-assembly">Heterotetramer</attribute>
+                </attributeList>
+            </interaction>
+        </interactionList>
+    </entry>
+</entrySet>
